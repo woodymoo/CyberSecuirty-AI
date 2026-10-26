@@ -42,7 +42,7 @@ _MIN_QUICK_GUIDE_SIDE_BY_SIDE = 96
 
 # Official docs: full slash-command reference (shown in bare /help footer).
 _QUICK_GUIDE_COMMANDS_DOC_URL = (
-    "https://aliasrobotics.github.io/cai/cai/getting-started/commands/"
+    "https://github.com/woodymoo/CyberSecuirty-AI"
 )
 
 
@@ -972,7 +972,7 @@ def display_quick_guide(console: Console):
         ),
     )
 
-    alias_url = "https://news.aliasrobotics.com/alias1-a-privacy-first-cybersecurity-ai/"
+    alias_url = "https://github.com/woodymoo/CyberSecuirty-AI"
     context_body = Text.assemble(
         ("Security-Focused AI Framework\n\n", "bold white"),
         ("For optimal cybersecurity AI performance, use\n", _GREY),

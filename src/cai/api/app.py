@@ -941,16 +941,21 @@ def create_cai_api_app(
         # Configure alias1 provider mapping (replicate CAI behavior)
         # Note: Using lower temperature (0.2) for focused/deterministic API responses
         # top_p uses default (1.0) from CAI_TOP_P env var
+        from cai.util.llm_api_base import (
+            resolve_llm_openai_compatible_base,
+            resolve_llm_openai_compatible_api_key,
+        )
+        _model = _os.getenv("CAI_MODEL", "alias1")
         kwargs = {
-            "model": "alias1",
+            "model": _model,
             "messages": llm_messages,
             "tools": [tool],
             "tool_choice": "required",
             "temperature": 0.2,  # Override default (0.7) - lower for API consistency
             "top_p": float(_os.getenv("CAI_TOP_P", "1.0")),  # Use env default
-            "api_base": "https://api.aliasrobotics.com:666/",
+            "api_base": resolve_llm_openai_compatible_base(_model),
             "custom_llm_provider": "openai",
-            "api_key": _os.getenv("ALIAS_API_KEY", "sk-alias-1234567890").strip(),
+            "api_key": resolve_llm_openai_compatible_api_key(_model),
         }
 
         try:

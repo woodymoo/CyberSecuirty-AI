@@ -288,7 +288,7 @@ Security professionals handle **massive amounts of sensitive data** during penet
 - 🛡️ [**Hacking the AI Hackers via Prompt Injection**](https://arxiv.org/pdf/2508.21669) (2025)
   Demonstrates security and privacy protection mechanisms.
 
-**[View all research →](https://aliasrobotics.com/research-security.php#papers)**
+**[View all research →](https://github.com/woodymoo/CyberSecuirty-AI/research-security.php#papers)**
 
 ---
 

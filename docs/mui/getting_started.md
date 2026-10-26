@@ -9,7 +9,7 @@ This guide will walk you through installing, configuring, and using the CAI Mobi
 
 Before you begin, ensure you have:
 
-1. **CAI-Pro License**: Active subscription from [Alias Robotics](https://aliasrobotics.com)
+1. **CAI-Pro License**: Active subscription from [the original authors](https://github.com/woodymoo/CyberSecuirty-AI)
 2. **iOS Device**: iPhone or iPad running iOS 15.0+
 3. **CAI API Server**: Running CAI API server (v0.7.0+) on your network
 4. **API Key**: Valid `ALIAS_API_KEY` for authentication
@@ -213,9 +213,9 @@ As the agent responds, you'll see:
 ### Getting Help
 
 1. **In-App Help**: Tap menu → Help
-2. **Documentation**: [https://docs.aliasrobotics.com](https://docs.aliasrobotics.com)
-3. **Discord Community**: [Join Discord](https://discord.gg/aliasrobotics)
-4. **Report Issues**: [GitHub Issues](https://github.com/aliasrobotics/cai/issues)
+2. **Documentation**: [https://github.com/woodymoo/CyberSecuirty-AI](https://github.com/woodymoo/CyberSecuirty-AI)
+3. **Discord Community**: [Join Discord](https://discord.gg/woodymoo)
+4. **Report Issues**: [GitHub Issues](https://github.com/woodymoo/CyberSecuirty-AI/issues)
 
 ## Next Steps
 

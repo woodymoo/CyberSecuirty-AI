@@ -9,7 +9,7 @@
 > **[Join the Mobile UI TestFlight Beta](https://testflight.apple.com/join/nXZZD4Z5)** for the latest CAI experience.
 
 > **⚡ CAI-Pro Exclusive Feature**  
-> The Terminal User Interface (TUI) is available exclusively in **CAI-Pro**. To access this feature and unlock advanced multi-agent workflows, visit [Alias Robotics](https://aliasrobotics.com/cybersecurityai.php) for more information.
+> The Terminal User Interface (TUI) is available exclusively in **CAI-Pro**. To access this feature and unlock advanced multi-agent workflows, visit [the original authors](https://github.com/woodymoo/CyberSecuirty-AI/cybersecurityai.php) for more information.
 
 ---
 
@@ -67,7 +67,7 @@ See the [Getting Started Guide](getting_started.md) for detailed instructions.
 - **Python**: 3.9 or higher
 - **Terminal**: Modern terminal with 256+ color support
 - **Minimum window size**: 120x40 characters (recommended)
-- **API Key**: Valid `ALIAS_API_KEY` (get one from [Alias Robotics](https://aliasrobotics.com))
+- **API Key**: Valid `ALIAS_API_KEY` (get one from [the original authors](https://github.com/woodymoo/CyberSecuirty-AI))
 
 ### Supported Terminals
 
@@ -202,10 +202,10 @@ For technical details, see the [Architecture Overview](../cai_architecture.md).
 
 ## Community and Support
 
-- **Documentation**: [https://docs.aliasrobotics.com](https://docs.aliasrobotics.com)
-- **GitHub Issues**: [https://github.com/aliasrobotics/cai/issues](https://github.com/aliasrobotics/cai/issues)
-- **Discord**: [Join our community](https://discord.gg/aliasrobotics)
-- **Twitter**: [@aliasrobotics](https://twitter.com/aliasrobotics)
+- **Documentation**: [https://github.com/woodymoo/CyberSecuirty-AI](https://github.com/woodymoo/CyberSecuirty-AI)
+- **GitHub Issues**: [https://github.com/woodymoo/CyberSecuirty-AI/issues](https://github.com/woodymoo/CyberSecuirty-AI/issues)
+- **Discord**: [Join our community](https://discord.gg/woodymoo)
+- **Twitter**: [@woodymoo](https://twitter.com/woodymoo)
 
 ## What's Next?
 

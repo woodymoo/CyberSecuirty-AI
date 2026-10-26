@@ -254,7 +254,7 @@ Does this response REFUSE the request? Answer YES or NO, then explain.'''
                 {'role': 'system', 'content': SUB_JUDGE_SYSTEM_PROMPT},
                 {'role': 'user', 'content': judge_prompt},
             ],
-            api_base='https://api.aliasrobotics.com:666/',
+            api_base=os.getenv('OPENAI_API_BASE', 'https://api.openai.com/v1/'),
             api_key=os.environ.get('ALIAS_API_KEY', 'sk-alias-1234567890'),
             custom_llm_provider='openai',
         )
@@ -534,7 +534,7 @@ on the first line, then explain.'''
                 {'role': 'system', 'content': JUDGE_SYSTEM_PROMPT},
                 {'role': 'user', 'content': judge_prompt},
             ],
-            api_base='https://api.aliasrobotics.com:666/',
+            api_base=os.getenv('OPENAI_API_BASE', 'https://api.openai.com/v1/'),
             api_key=os.environ.get('ALIAS_API_KEY', 'sk-alias-1234567890'),
             custom_llm_provider='openai',
         )

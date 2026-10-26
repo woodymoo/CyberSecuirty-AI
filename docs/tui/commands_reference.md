@@ -4,7 +4,7 @@
     This page is **likely out of date**. **Maintained command reference:** **[CLI docs](../cai/getting-started/commands.md)** and **`docs/cai/`** — use those when in doubt.
 
 > **⚡ CAI-Pro Exclusive Feature**  
-> The Terminal User Interface (TUI) is available exclusively in **CAI-Pro**. To access this feature and unlock advanced multi-agent workflows, visit [Alias Robotics](https://aliasrobotics.com/cybersecurityai.php) for more information.
+> The Terminal User Interface (TUI) is available exclusively in **CAI-Pro**. To access this feature and unlock advanced multi-agent workflows, visit [the original authors](https://github.com/woodymoo/CyberSecuirty-AI/cybersecurityai.php) for more information.
 
 ---
 
@@ -549,7 +549,7 @@ Cancel running operations.
 - [Keyboard Shortcuts](keyboard_shortcuts.md) - Complete keyboard reference
 - [User Interface Guide](user_interface.md) - Visual components and layouts
 
-For questions or issues, visit [CAI GitHub Issues](https://github.com/aliasrobotics/cai/issues).
+For questions or issues, visit [CAI GitHub Issues](https://github.com/woodymoo/CyberSecuirty-AI/issues).
 
 ---
 

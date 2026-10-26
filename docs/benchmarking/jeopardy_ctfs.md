@@ -139,13 +139,13 @@ python benchmarks/eval_ctf.py --benchmark cybench --model alias1
 python benchmarks/eval_ctf.py --benchmark rctf2 --model alias1
 ```
 
-Contact research@aliasrobotics.com for detailed setup instructions.
+Contact the maintainer for detailed setup instructions.
 
 ---
 
 ## 📊 Benchmark Configuration
 
-CTF configurations are defined in [`ctf_configs.jsonl`](https://github.com/aliasrobotics/cai/blob/main/src/cai/caibench/ctf-jsons/ctf_configs.jsonl):
+CTF configurations are defined in [`ctf_configs.jsonl`](https://github.com/woodymoo/CyberSecuirty-AI/blob/main/src/cai/caibench/ctf-jsons/ctf_configs.jsonl):
 
 ```json
 {
@@ -183,7 +183,7 @@ Unlike traditional benchmarks that test general knowledge, CTFs require **active
 - 🚀 [**Cybersecurity AI (CAI) Framework**](https://arxiv.org/pdf/2504.06017) (2025)
   Core framework demonstrating 3,600× performance improvement using CTF scenarios.
 
-**[View all research →](https://aliasrobotics.com/research-security.php#papers)**
+**[View all research →](https://github.com/woodymoo/CyberSecuirty-AI/research-security.php#papers)**
 
 ---
 

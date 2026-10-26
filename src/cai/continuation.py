@@ -125,17 +125,9 @@ IMPORTANT: Respond with ONLY the continuation prompt. No explanations, no "Here'
             "stream": False
         }
         
-        # Configure for alias2-mini (compact Alias model; same API gateway as other alias models)
-        if model_name.lower() == "alias2-mini":
-            kwargs["api_base"] = "https://api.aliasrobotics.com:666/"
-            kwargs["custom_llm_provider"] = "openai"
-            kwargs["api_key"] = (cfg.alias_api_key or "sk-alias-1234567890").strip()
-        # Configure for alias models (following the pattern in openai_chatcompletions.py) [S]
-        elif "alias" in model_name.lower() and "alias0.5" not in model_name.lower():
-            kwargs["api_base"] = "https://api.aliasrobotics.com:666/"
-            kwargs["custom_llm_provider"] = "openai"
-            kwargs["api_key"] = (cfg.alias_api_key or "sk-alias-1234567890").strip()
-        
+        # Alias-gateway special-casing removed: route via standard OpenAI-compatible
+        # config (CAI_MODEL + OPENAI_API_BASE / OPENAI_API_KEY). See util/llm_api_base.py.
+
         # Make the API call
         logger.debug(f"Making API call with kwargs: {kwargs.get('model')}, provider: {kwargs.get('custom_llm_provider', 'default')}")
         response = await litellm.acompletion(**kwargs)

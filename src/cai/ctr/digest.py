@@ -536,17 +536,8 @@ OUTPUT REQUIREMENTS:
         "max_tokens": 5000  # Increased for reasoning models
     }
 
-    # Apply custom configuration for alias models (same logic as OpenAIChatCompletionsModel)
-    model_str = str(model).lower()
-    # Configure for alias2-mini (compact Alias model; same API gateway as other alias models)
-    if model_str == "alias2-mini":
-        kwargs["api_base"] = "https://api.aliasrobotics.com:666/"
-        kwargs["custom_llm_provider"] = "openai"
-        kwargs["api_key"] = os.getenv("ALIAS_API_KEY", "sk-alias-1234567890")
-    elif "alias" in model_str and "alias0.5" not in model_str:
-        kwargs["api_base"] = "https://api.aliasrobotics.com:666/"
-        kwargs["custom_llm_provider"] = "openai"
-        kwargs["api_key"] = os.getenv("ALIAS_API_KEY", "sk-alias-1234567890")
+    # Alias-gateway special-casing removed: route via standard OpenAI-compatible
+    # config (CAI_MODEL + OPENAI_API_BASE / OPENAI_API_KEY). See util/llm_api_base.py.
 
     try:
         response = await litellm.acompletion(**kwargs)

@@ -10,7 +10,7 @@ CAI does NOT provide API keys for any model by default. Don't ask us to provide 
 
 ⚠️  Note:
 
-The OPENAI_API_KEY must not be left blank. It should contain either "sk-123" (as a placeholder) or your actual API key. See https://github.com/aliasrobotics/cai/issues/27.
+The OPENAI_API_KEY must not be left blank. It should contain either "sk-123" (as a placeholder) or your actual API key. See https://github.com/woodymoo/CyberSecuirty-AI/issues/27.
 
 ### List of Environment Variables
 

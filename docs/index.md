@@ -4,10 +4,10 @@ A lightweight, ergonomic framework for building bug bounty-ready Cybersecurity A
 
 <div align="center">
   <p>
-    <a align="center" href="" target="https://github.com/aliasrobotics/CAI">
+    <a align="center" href="" target="https://github.com/woodymoo/CAI">
       <img
         width="100%"
-        src="https://github.com/aliasrobotics/cai/raw/main/media/cai.png"
+        src="https://github.com/woodymoo/CyberSecuirty-AI/raw/main/media/cai.png"
       >
     </a>
   </p>
@@ -68,17 +68,17 @@ A lightweight, ergonomic framework for building bug bounty-ready Cybersecurity A
 <a href="https://ctf.hackthebox.com/event/2000/scoreboard"><img src="https://img.shields.io/badge/HTB_Human_vs_AI_CTF-top_20_World-red.svg" alt="HTB Human vs AI CTF top 20 World"></a>
 <a href="https://ctf.hackthebox.com/event/2000/scoreboard"><img src="https://img.shields.io/badge/HTB_Human_vs_AI_CTF-750_$-yellow.svg" alt="HTB Human vs AI CTF 750 $"></a>
 <a href="https://lu.ma/roboticshack?tk=RuryKF"><img src="https://img.shields.io/badge/Mistral_AI_Robotics_Hackathon-2500_$-yellow.svg" alt="Mistral AI Robotics Hackathon 2500 $"></a>
-<a href="https://github.com/aliasrobotics/cai"><img src="https://img.shields.io/badge/Bug_rewards-250_$-yellow.svg" alt="Bug rewards 250 $"></a>
+<a href="https://github.com/woodymoo/CyberSecuirty-AI"><img src="https://img.shields.io/badge/Bug_rewards-250_$-yellow.svg" alt="Bug rewards 250 $"></a>
 </p>
 
 ## 📦 Package Attributes
 <p>
 <a href="https://badge.fury.io/py/cai-framework"><img src="https://badge.fury.io/py/cai-framework.svg" alt="version"></a>
 <a href="https://pypistats.org/packages/cai-framework"><img src="https://img.shields.io/pypi/dm/cai-framework" alt="downloads"></a>
-<a href="https://github.com/aliasrobotics/cai"><img src="https://img.shields.io/badge/Linux-Supported-brightgreen?logo=linux&logoColor=white" alt="Linux"></a>
-<a href="https://github.com/aliasrobotics/cai"><img src="https://img.shields.io/badge/OS%20X-Supported-brightgreen?logo=apple&logoColor=white" alt="OS X"></a>
-<a href="https://github.com/aliasrobotics/cai"><img src="https://img.shields.io/badge/Windows-Supported-brightgreen?logo=windows&logoColor=white" alt="Windows"></a>
-<a href="https://github.com/aliasrobotics/cai"><img src="https://img.shields.io/badge/Android-Supported-brightgreen?logo=android&logoColor=white" alt="Android"></a>
+<a href="https://github.com/woodymoo/CyberSecuirty-AI"><img src="https://img.shields.io/badge/Linux-Supported-brightgreen?logo=linux&logoColor=white" alt="Linux"></a>
+<a href="https://github.com/woodymoo/CyberSecuirty-AI"><img src="https://img.shields.io/badge/OS%20X-Supported-brightgreen?logo=apple&logoColor=white" alt="OS X"></a>
+<a href="https://github.com/woodymoo/CyberSecuirty-AI"><img src="https://img.shields.io/badge/Windows-Supported-brightgreen?logo=windows&logoColor=white" alt="Windows"></a>
+<a href="https://github.com/woodymoo/CyberSecuirty-AI"><img src="https://img.shields.io/badge/Android-Supported-brightgreen?logo=android&logoColor=white" alt="Android"></a>
 <a href="https://discord.gg/fnUFcTaQAC"><img src="https://img.shields.io/badge/Discord-7289DA?logo=discord&logoColor=white" alt="Discord"></a>
 <a href="https://arxiv.org/pdf/2504.06017"><img src="https://img.shields.io/badge/arXiv-2504.06017-b31b1b.svg" alt="arXiv"></a>
 </p>
@@ -104,11 +104,11 @@ CAI's capabilities are validated through rigorous peer-reviewed research demonst
 - 📚 [**CAI Fluency**](https://arxiv.org/pdf/2508.13588) - Educational framework for democratizing AI security
 - 🤖 [**Automation vs Autonomy**](https://www.arxiv.org/pdf/2506.23592) - 6-level taxonomy for cybersecurity AI
 
-**📖 Explore all 24+ papers:** [Alias Robotics Research Library →](https://aliasrobotics.com/research-security.php#papers)
+**📖 Explore all 24+ papers:** [the original authors Research Library →](https://github.com/woodymoo/CyberSecuirty-AI/research-security.php#papers)
 
 ---
 
-> ⚠️ CAI is in active development, so don't expect it to work flawlessly. Instead, contribute by raising an issue or [sending a PR](https://github.com/aliasrobotics/cai/pulls).
+> ⚠️ CAI is in active development, so don't expect it to work flawlessly. Instead, contribute by raising an issue or [sending a PR](https://github.com/woodymoo/CyberSecuirty-AI/pulls).
 >
 > Access to this library and the use of information, materials (or portions thereof), is **<u>not intended</u>, and is <u>prohibited</u>, where such access or use violates applicable laws or regulations**. By no means the authors encourage or promote the unauthorized tampering with running systems. This can cause serious human harm and material damages.
 >
@@ -134,7 +134,7 @@ You might be wondering if releasing CAI *in-the-wild* given its capabilities and
 CAI is built on the following core principles:
 
 - **Cybersecurity oriented AI framework**: CAI is specifically designed for cybersecurity use cases, aiming at semi- and fully-automating offensive and defensive security tasks.
-- **Open source, free for research**: CAI is open source and free for research purposes. We aim at democratizing access to AI and Cybersecurity. For professional or commercial use, including on-premise deployments, dedicated technical support and custom extensions [reach out](mailto:research@aliasrobotics.com) to obtain a license.
+- **Open source, free for research**: CAI is open source and free for research purposes. We aim at democratizing access to AI and Cybersecurity. For professional or commercial use, including on-premise deployments, dedicated technical support and custom extensions [reach out](https://github.com/woodymoo/CyberSecuirty-AI) to obtain a license.
 - **Lightweight**: CAI is designed to be fast, and easy to use.
 - **Modular and agent-centric design**: CAI operates on the basis of agents and agentic patterns, which allows flexibility and scalability. You can easily add the most suitable agents and pattern for your cybersecurity target case.
 - **Tool-integration**: CAI integrates already built-in tools, and allows the user to integrate their own tools with their own logic easily.
@@ -221,4 +221,4 @@ If you want to cite our work, please use the following:
 
 ## Acknowledgements
 
-CAI was initially developed by [Alias Robotics](https://aliasrobotics.com) and co-funded by the European EIC accelerator project RIS (GA 101161136) - HORIZON-EIC-2023-ACCELERATOR-01 call. The original agentic principles are inspired from OpenAI's [`swarm`](https://github.com/openai/swarm) library and translated into newer prototypes. This project also makes use of other relevant open source building blocks including [`LiteLLM`](https://github.com/BerriAI/litellm), and [`phoenix`](https://github.com/Arize-ai/phoenix).
+CAI was initially developed by [the original authors](https://github.com/woodymoo/CyberSecuirty-AI) and co-funded by the European EIC accelerator project RIS (GA 101161136) - HORIZON-EIC-2023-ACCELERATOR-01 call. The original agentic principles are inspired from OpenAI's [`swarm`](https://github.com/openai/swarm) library and translated into newer prototypes. This project also makes use of other relevant open source building blocks including [`LiteLLM`](https://github.com/BerriAI/litellm), and [`phoenix`](https://github.com/Arize-ai/phoenix).

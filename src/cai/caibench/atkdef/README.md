@@ -1,5 +1,5 @@
 <div align="center">
-  <h1><img src="static/alias.png" alt="Alias Robotics Logo" width="30"/>
+  <h1><img src="static/alias.png" alt="the original authors Logo" width="30"/>
   CAIBench Attack/Defense CTF Game Server</h1>
   
 <b>A comprehensive Attack/Defense CTF platform with AI agent integration, real-time scoring, and automated service monitoring</b>
@@ -84,7 +84,7 @@ In Attack/Defense CTF competitions:
 #### Step 1: Clone and Setup Environment
 ```bash
 # Clone the repository
-git clone https://github.com/aliasrobotics/cai
+git clone https://github.com/woodymoo/CyberSecuirty-AI
 cd cai
 
 # Setup and start the development container
@@ -168,7 +168,7 @@ cai --yaml ./src/cai/caibench/atkdef/team_3/agents.yml --tui
 ### Quick Reference (Experienced Users)
 ```bash
 # Complete workflow in minimal commands:
-git clone https://github.com/aliasrobotics/cai && cd cai
+git clone https://github.com/woodymoo/CyberSecuirty-AI && cd cai
 cd .devcontainer && docker compose up --build -d && cd ..
 cd src/cai/caibench/atkdef
 vi ad_config.yml  # Set ctf.name and teams.count
@@ -280,7 +280,7 @@ docker network ls | grep cainet || \
 3. **Pull CTF Images** (if not available locally)
 ```bash
 # Example for cowsay CTF
-docker pull registry.gitlab.com/aliasrobotics/alias_research/caiextensions/pentestperf:cowsay
+docker pull registry.gitlab.com/woodymoo/alias_research/caiextensions/pentestperf:cowsay
 ```
 
 ## ⚙️ Configuration
@@ -1175,14 +1175,14 @@ game:
 
 ## 📄 License
 
-Part of the CAIBench project - Proprietary software by Alias Robotics
+Part of the CAIBench project - Proprietary software by the original authors
 
 ---
 
 <div align="center">
 
-**Built with ❤️ by Alias Robotics**
+**Built with ❤️ by the original authors**
 
-[Report Issues](https://github.com/aliasrobotics/issues) • [Documentation](https://docs.aliasrobotics.com) • [Website](https://aliasrobotics.com)
+[Report Issues](https://github.com/woodymoo/CyberSecuirty-AI/issues) • [Documentation](https://github.com/woodymoo/CyberSecuirty-AI) • [Website](https://github.com/woodymoo/CyberSecuirty-AI)
 
 </div>

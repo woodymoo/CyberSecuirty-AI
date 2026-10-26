@@ -166,7 +166,7 @@ Each machine represents a complete penetration testing scenario suitable for eva
 
 ### For CAI PRO Subscribers
 
-Contact research@aliasrobotics.com to request access to A&D benchmark environments.
+Contact the maintainer to request access to A&D benchmark environments.
 
 ---
 
@@ -178,7 +178,7 @@ Contact research@aliasrobotics.com to request access to A&D benchmark environmen
 - 📊 [**CAIBench: Cybersecurity AI Benchmark**](https://arxiv.org/pdf/2510.24317) (2025)
   Meta-benchmark framework methodology and evaluation results.
 
-**[View all research →](https://aliasrobotics.com/research-security.php#papers)**
+**[View all research →](https://github.com/woodymoo/CyberSecuirty-AI/research-security.php#papers)**
 
 ---
 

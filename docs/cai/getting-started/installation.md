@@ -139,7 +139,7 @@ cd ./configure --enable-optimizations
 sudo make altinstall # This command takes long to execute
 
 # Clone CAI's source code
-git clone https://github.com/aliasrobotics/cai && cd cai
+git clone https://github.com/woodymoo/CyberSecuirty-AI && cd cai
 
 # Create virtual environment
 python3.12 -m venv cai_env

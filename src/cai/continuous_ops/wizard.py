@@ -592,7 +592,7 @@ def run_continuous_ops_wizard(user_mission: str, console: Console) -> bool:
             "for that tick is still running when the cap is reached, that turn is stopped so the loop can "
             "continue, and the next iteration is scheduled after the usual spacing. Choosing very low tick "
             "values can saturate the model and APIs and lead to unstable or misleading behavior. "
-            "If you need a higher sustained throughput, contact support at [italic]support@aliasrobotics.com[/italic].",
+            "If you need a higher sustained throughput, see the project README.",
         )
         console.print(
             Text.assemble(

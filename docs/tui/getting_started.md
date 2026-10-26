@@ -1,7 +1,7 @@
 # Getting Started with CAI TUI
 
 > **⚡ CAI-Pro Exclusive Feature**  
-> The Terminal User Interface (TUI) is available exclusively in **CAI-Pro**. To access this feature and unlock advanced multi-agent workflows, visit [Alias Robotics](https://aliasrobotics.com/cybersecurityai.php) for more information.
+> The Terminal User Interface (TUI) is available exclusively in **CAI-Pro**. To access this feature and unlock advanced multi-agent workflows, visit [the original authors](https://github.com/woodymoo/CyberSecuirty-AI/cybersecurityai.php) for more information.
 
 ---
 
@@ -13,7 +13,7 @@ Before starting, ensure you have:
 
 - ✅ CAI installed (see [Installation Guide](../Installation_Guide_for_CAI_Pro_v0.6.md))
 - ✅ Python 3.9+ installed
-- ✅ A valid `ALIAS_API_KEY` from [Alias Robotics](https://aliasrobotics.com)
+- ✅ A valid `ALIAS_API_KEY` from [the original authors](https://github.com/woodymoo/CyberSecuirty-AI)
 
 
 ## Step 1: Launch the TUI
@@ -88,7 +88,7 @@ Press **Enter**.
 
 | Model | Provider | Best For | Cost |
 |-------|----------|----------|------|
-| `alias1` | Alias Robotics | **Recommended** - Balanced performance | Medium |
+| `alias1` | the original authors | **Recommended** - Balanced performance | Medium |
 | `gpt-5` | OpenAI | Latest reasoning and code generation | Very High |
 | `gpt-4o` | OpenAI | Complex reasoning and multi-modal | High |
 | `claude-4-5` | Anthropic | Advanced reasoning and long contexts | Very High |
@@ -338,5 +338,5 @@ Congratulations! You've completed the basics of CAI TUI. Here's what to explore 
 
 ### Get Help
 - 🔧 [Troubleshooting](troubleshooting.md) - Solve issues
-- 💬 [Community Discord](https://discord.gg/aliasrobotics) - Ask questions
+- 💬 [Community Discord](https://discord.gg/woodymoo) - Ask questions
 

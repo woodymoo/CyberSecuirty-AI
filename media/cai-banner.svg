@@ -127,7 +127,7 @@
   </g>
 
   <!-- Professional Edition Content with hyperlink -->
-  <a href="https://aliasrobotics.com/cybersecurityai.php" target="_blank">
+  <a href="https://github.com/woodymoo/CyberSecuirty-AI/cybersecurityai.php" target="_blank">
     <g>
       <!-- Make PRO section clickable area indicator -->
       <rect x="453" y="3" width="444" height="277" fill="transparent" opacity="0.01" cursor="pointer"/>
@@ -176,7 +176,7 @@
   </a>
 
   <!-- Bottom banner with hyperlink -->
-  <a href="https://aliasrobotics.com/alias1.php#benchmarking" target="_blank">
+  <a href="https://github.com/woodymoo/CyberSecuirty-AI/alias1.php#benchmarking" target="_blank">
     <g>
       <!-- Make bottom banner clickable area indicator -->
       <rect x="3" y="283" width="894" height="34" fill="transparent" opacity="0.01" cursor="pointer"/>
