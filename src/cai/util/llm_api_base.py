@@ -1,11 +1,11 @@
-"""Resolve OpenAI-compatible ``api_base`` for the Alias gateway and custom endpoints."""
+"""Resolve OpenAI-compatible ``api_base`` for custom/OpenAI endpoints (no Alias gateway fallback)."""
 
 from __future__ import annotations
 
 import os
 import urllib.parse
 
-DEFAULT_ALIAS_LLM_API_BASE = "https://api.aliasrobotics.com:666/"
+DEFAULT_LLM_API_BASE = "https://api.openai.com/v1/"
 
 # Model ids for which ``CSI_CUSTOM_ENDPOINT`` / ``ALIAS_API_URL`` may apply (prefix match, case-insensitive).
 _ALIAS_API_URL_MODEL_PREFIXES: tuple[str, ...] = ("cai", "alias", "csi")
@@ -38,7 +38,7 @@ def model_qualifies_for_alias_api_url(model: str | None) -> bool:
 def _normalize_api_base_url(url: str) -> str:
     u = (url or "").strip()
     if not u:
-        return DEFAULT_ALIAS_LLM_API_BASE
+        return DEFAULT_LLM_API_BASE
     parsed = urllib.parse.urlparse(u if "://" in u else f"https://{u}")
     if not parsed.scheme:
         u = "https://" + u.lstrip("/")
@@ -48,7 +48,7 @@ def _normalize_api_base_url(url: str) -> str:
         path = path + "/"
     netloc = parsed.netloc or ""
     if not netloc:
-        return DEFAULT_ALIAS_LLM_API_BASE
+        return DEFAULT_LLM_API_BASE
     return urllib.parse.urlunparse((parsed.scheme or "https", netloc, path, "", "", ""))
 
 
@@ -73,7 +73,7 @@ def resolve_llm_openai_compatible_base(model: str | None = None) -> str:
     1. ``CSI_CUSTOM_ENDPOINT`` if non-empty (e.g. CSI + CAI backend).
     2. ``ALIAS_API_URL`` if non-empty.
     3. ``OPENAI_API_BASE`` if non-empty.
-    4. Built-in Alias gateway default.
+    4. Built-in OpenAI-compatible default (api.openai.com); no Alias gateway fallback.
 
     If the model does not qualify, only steps 3–4 apply.
 
@@ -90,7 +90,7 @@ def resolve_llm_openai_compatible_base(model: str | None = None) -> str:
     legacy = (os.getenv("OPENAI_API_BASE") or "").strip()
     if legacy:
         return _normalize_api_base_url(legacy)
-    return DEFAULT_ALIAS_LLM_API_BASE
+    return DEFAULT_LLM_API_BASE
 
 
 def resolve_llm_openai_compatible_api_key(model: str | None = None) -> str:

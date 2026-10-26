@@ -502,7 +502,7 @@ EXTRA_ENV_VARS: List[Dict[str, Any]] = [
     },
     {
         "name": "OPENAI_API_BASE",
-        "default": "https://api.aliasrobotics.com:666/",
+        "default": "https://api.openai.com/v1/",
         "description": (
             "Base URL when ``CSI_CUSTOM_ENDPOINT`` / ``ALIAS_API_URL`` do not apply (model prefix) "
             "or are unset/empty."

@@ -56,10 +56,10 @@ def test_model_qualifies_for_alias_api_url(model: str, expect: bool) -> None:
             "https://csi-ignored.example/",
             "https://alias-ignored.example/",
             "",
-            "aliasrobotics.com",
+            "openai.com",
         ),
         ("alias1", "", "", "https://custom.example/", "custom.example"),
-        ("gpt-4o", "", "", "", "aliasrobotics.com"),
+        ("gpt-4o", "", "", "", "openai.com"),
     ],
 )
 def test_resolve_base(

@@ -145,17 +145,9 @@ def _resolve_model_name(agent: Any, cfg: Any) -> str:
 
 
 def _litellm_kwargs_for_model(model_name: str, cfg: Any) -> dict[str, Any]:
+    # Alias-gateway special-casing removed: route via standard OpenAI-compatible
+    # config (CAI_MODEL + OPENAI_API_BASE / OPENAI_API_KEY). See util/llm_api_base.py.
     kwargs: dict[str, Any] = {}
-    mn = model_name.lower()
-    if mn == "alias2-mini" or ("alias" in mn and "alias0.5" not in mn):
-        kwargs["api_base"] = "https://api.aliasrobotics.com:666/"
-        kwargs["custom_llm_provider"] = "openai"
-        key = (
-            getattr(cfg, "alias_api_key", None)
-            or os.getenv("ALIAS_API_KEY", "")
-            or "sk-alias-1234567890"
-        )
-        kwargs["api_key"] = str(key).strip()
     return kwargs
 
 

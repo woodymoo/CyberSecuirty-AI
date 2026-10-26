@@ -251,12 +251,8 @@ def main():
     # --- --unrestricted ---
     if parsed_args.unrestricted:
         os.environ["CAI_UNRESTRICTED"] = "true"
-        # Same OpenAI-compatible entry as default CAI; LiteLLM routes by API key + model name.
-        _UNRESTRICTED_API_BASE = "https://api.aliasrobotics.com:666/"
-        _UNRESTRICTED_MODEL = _resolve_alias_model_name(None)
-        os.environ.setdefault("OPENAI_API_BASE", _UNRESTRICTED_API_BASE)
-        os.environ.setdefault("CAI_MODEL", _UNRESTRICTED_MODEL)
-        # Auth: use ALIAS_API_KEY from .env (httpx_client prefers it).
+        # Alias gateway default removed: configure your own OpenAI-compatible
+        # endpoint via CAI_MODEL + OPENAI_API_BASE / OPENAI_API_KEY.
 
     # --- --version ---
     if parsed_args.version:
