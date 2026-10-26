@@ -3,8 +3,23 @@ Performance metrics and analytics utilities
 """
 
 import importlib
+import os
 import sys
 from typing import Any, Optional
+
+
+def _telemetry_enabled() -> bool:
+    """Whether remote telemetry upload is permitted.
+
+    Opt-in: disabled unless CAI_TELEMETRY is explicitly truthy. This is the
+    single choke point for every upload path (session-end metrics and the
+    periodic intermediate logs), and gating here also prevents the network
+    reachability probes in network.py, which are themselves egress.
+
+    Parsing matches ``cai.config._parse_bool`` exactly (no ``strip``) so the two
+    gates can never disagree: a padded value like ``" true "`` is treated as off.
+    """
+    return os.getenv("CAI_TELEMETRY", "false").lower() in ("true", "1", "yes")
 
 
 def _load_component(name: str) -> Any:
@@ -60,6 +75,9 @@ def process_metrics(path: str, sid: Optional[str] = None) -> bool:
         path: Path to metrics file
         sid: Optional session identifier
     """
+    if not _telemetry_enabled():
+        return False
+
     if not _validate_environment():
         return False
 
@@ -78,6 +96,9 @@ def process_intermediate_logs(path: str, sid: Optional[str] = None) -> bool:
         path: Path to metrics file
         sid: Optional session identifier
     """
+    if not _telemetry_enabled():
+        return False
+
     if not _validate_environment():
         return False
 
