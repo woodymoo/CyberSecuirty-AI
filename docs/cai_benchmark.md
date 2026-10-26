@@ -80,10 +80,10 @@ CAIBench and the CAI framework are backed by extensive peer-reviewed research va
 - 🤖 [**Humanoid Robots as Attack Vectors**](https://arxiv.org/pdf/2509.14139) (2025)
   Systematic security assessment of humanoid robots, demonstrating advanced vulnerability research capabilities.
 
-- 🤖 [**PentestGPT: GPT-empowered Penetration Testing Tool**](https://github.com/aliasrobotics/cai/raw/main/docs/files/PentestGPT_paper.pdf) (2024)
+- 🤖 [**PentestGPT: GPT-empowered Penetration Testing Tool**](https://github.com/woodymoo/CyberSecuirty-AI/raw/main/docs/files/PentestGPT_paper.pdf) (2024)
   Pioneering work on LLMs in cybersecurity, laying foundation for modern agentic security frameworks.
 
-**📖 View all 24+ publications:** [Alias Robotics Research Library →](https://aliasrobotics.com/research-security.php#papers)
+**📖 View all 24+ publications:** [the original authors Research Library →](https://github.com/woodymoo/CyberSecuirty-AI/research-security.php#papers)
 
 !!! tip "Model Recommendations"
     Based on CAIBench evaluations, **`alias1`** consistently demonstrates superior performance across all cybersecurity benchmark categories compared to general-purpose models like GPT-4o and Claude 3.5.
@@ -145,12 +145,12 @@ CAIBench and the CAI framework are backed by extensive peer-reviewed research va
 
 :five: **Privacy** (`benchmarks/eval.py` :book:) - Assess AI models' ability to handle sensitive information appropriately, maintain privacy standards, and properly manage Personally Identifiable Information (PII) in cybersecurity contexts.
 
-> **Note:** Categories :one: **Jeopardy-style CTFs**, :two: **Attack–Defense CTF**, and :three: **Cyber Range Exercises** are available in the **CAI PRO** version. Learn more at https://aliasrobotics.com/cybersecurityai.php
+> **Note:** Categories :one: **Jeopardy-style CTFs**, :two: **Attack–Defense CTF**, and :three: **Cyber Range Exercises** are available in the **CAI PRO** version. Learn more at https://github.com/woodymoo/CyberSecuirty-AI/cybersecurityai.php
 
 
 ## Benchmarks
 
-Currently, supporting the following benchmarks, refer to [`ctf_configs.jsonl`](https://github.com/aliasrobotics/cai/blob/main/src/cai/caibench/ctf-jsons/ctf_configs.jsonl) for more details:
+Currently, supporting the following benchmarks, refer to [`ctf_configs.jsonl`](https://github.com/woodymoo/CyberSecuirty-AI/blob/main/src/cai/caibench/ctf-jsons/ctf_configs.jsonl) for more details:
 
 | Category | Benchmark | Difficulty | Description |
 |----------|-----------|------------|-------------|
@@ -162,7 +162,7 @@ Currently, supporting the following benchmarks, refer to [`ctf_configs.jsonl`](h
 | :four: `knowledge` | [SecEval](https://github.com/XuanwuAI/SecEval) | N/A | Benchmark designed to evaluate large language models (LLMs) on security-related tasks. It includes various real-world scenarios such as phishing email analysis, vulnerability classification, and response generation. |
 | :four: `knowledge` | [CyberMetric](https://github.com/CyberMetric) | N/A | Benchmark framework that focuses on measuring the performance of AI systems in cybersecurity-specific question answering, knowledge extraction, and contextual understanding. It emphasizes both domain knowledge and reasoning ability. |
 | :four: `knowledge` | [CTIBench](https://github.com/xashru/cti-bench) | N/A | Benchmark focused on evaluating LLM models' capabilities in understanding and processing Cyber Threat Intelligence (CTI) information. |
-| :five: `privacy` | [CyberPII-Bench](https://github.com/aliasrobotics/cai/tree/main/benchmarks/cyberPII-bench/) | N/A | Benchmark designed to evaluate the ability of LLM models to maintain privacy and handle **Personally Identifiable Information (PII)** in cybersecurity contexts. Built from real-world data generated during offensive hands-on exercises conducted with **CAI (Cybersecurity AI)**. |
+| :five: `privacy` | [CyberPII-Bench](https://github.com/woodymoo/CyberSecuirty-AI/tree/main/benchmarks/cyberPII-bench/) | N/A | Benchmark designed to evaluate the ability of LLM models to maintain privacy and handle **Personally Identifiable Information (PII)** in cybersecurity contexts. Built from real-world data generated during offensive hands-on exercises conducted with **CAI (Cybersecurity AI)**. |
 
 
 [^1]: **Very Easy (`Beginner`)**: Tailored for beginners with minimal cybersecurity knowledge. Focus areas include basic vulnerabilities such as XSS and simple SQLi, introductory cryptography, and elementary forensics.
@@ -179,7 +179,7 @@ Currently, supporting the following benchmarks, refer to [`ctf_configs.jsonl`](h
 
 [^7]: CAIBench integrates only 35 (out of 40) curated Cybench scenarios for evaluation purposes. This reduction comes mainly down to restrictions in our testing infrastructure as well as reproducibility issues.
 
-[^8]: Internal exercises related to Jeopardy-style CTFs, Attack–Defense CTF, and Cyber Range Exercises are available upon request to [CAI PRO](https://aliasrobotics.com/cybersecurityai.php) subscribers on a use case basis. Learn more at https://aliasrobotics.com/cybersecurityai.php
+[^8]: Internal exercises related to Jeopardy-style CTFs, Attack–Defense CTF, and Cyber Range Exercises are available upon request to [CAI PRO](https://github.com/woodymoo/CyberSecuirty-AI/cybersecurityai.php) subscribers on a use case basis. Learn more at https://github.com/woodymoo/CyberSecuirty-AI/cybersecurityai.php
 
 
 ## About `Cybersecurity Knowledge` benchmarks

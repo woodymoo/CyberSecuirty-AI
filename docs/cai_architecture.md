@@ -37,7 +37,7 @@ The CAI architecture is built on rigorous research establishing best practices f
     - 🛡️ [**Prompt Injection Defense**](https://arxiv.org/pdf/2508.21669) (2025) - Four-layer guardrail system architecture
     - 📊 [**CAIBench**](https://arxiv.org/pdf/2510.24317) (2025) - Meta-benchmark framework for evaluating agent performance
 
-**📖 Explore all research:** [Alias Robotics Research Library →](https://aliasrobotics.com/research-security.php#papers)
+**📖 Explore all research:** [the original authors Research Library →](https://github.com/woodymoo/CyberSecuirty-AI/research-security.php#papers)
 
 The architecture emphasizes **transparency**, **modularity**, and **human oversight** to ensure responsible and effective cybersecurity automation. Our [research demonstrates](https://arxiv.org/pdf/2506.23592) that semi-autonomous systems with human-in-the-loop capabilities significantly outperform fully autonomous approaches for complex security tasks.
 

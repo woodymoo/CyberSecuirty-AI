@@ -239,7 +239,7 @@ Unlike hands-on CTF challenges, knowledge benchmarks assess the **theoretical fo
 - 🚀 [**Cybersecurity AI (CAI) Framework**](https://arxiv.org/pdf/2504.06017) (2025)
   Demonstrates knowledge-driven security operations.
 
-**[View all research →](https://aliasrobotics.com/research-security.php#papers)**
+**[View all research →](https://github.com/woodymoo/CyberSecuirty-AI/research-security.php#papers)**
 
 ---
 

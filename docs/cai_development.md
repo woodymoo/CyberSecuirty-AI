@@ -26,7 +26,7 @@ CAI is provided free of charge for researchers. To improve CAI’s detection acc
 - Tool usage patterns and performance metrics
 - Model interactions and token usage statistics
 
-We take your privacy seriously and only collect what's needed to make CAI better. For further info, reach out to research＠aliasrobotics.com. You can disable some of the data collection features via the `CAI_TELEMETRY` environment variable but we encourage you to keep it enabled and contribute back to research:
+We take your privacy seriously and only collect what's needed to make CAI better. For further info, reach out to research＠github.com/woodymoo/CyberSecuirty-AI. You can disable some of the data collection features via the `CAI_TELEMETRY` environment variable but we encourage you to keep it enabled and contribute back to research:
 
 ```bash
 CAI_TELEMETRY=False cai
@@ -43,5 +43,5 @@ docker run --rm -it \
   --add-host="host.docker.internal:host-gateway" \
   -v /cache:/cache \
   -v /var/run/docker.sock:/var/run/docker.sock:rw \
-  registry.gitlab.com/aliasrobotics/alias_research/cai:latest bash
+  registry.gitlab.com/woodymoo/alias_research/cai:latest bash
 ```

@@ -1,7 +1,7 @@
 # Sidebar Features
 
 > **⚡ CAI-Pro Exclusive Feature**  
-> The Terminal User Interface (TUI) is available exclusively in **CAI-Pro**. To access this feature and unlock advanced multi-agent workflows, visit [Alias Robotics](https://aliasrobotics.com/cybersecurityai.php) for more information.
+> The Terminal User Interface (TUI) is available exclusively in **CAI-Pro**. To access this feature and unlock advanced multi-agent workflows, visit [the original authors](https://github.com/woodymoo/CyberSecuirty-AI/cybersecurityai.php) for more information.
 
 ---
 
@@ -288,7 +288,7 @@ CAI supports API keys for:
 
 #### About ALIAS1
 
-**ALIAS1** is Alias Robotics' proprietary large language model, specifically fine-tuned and optimized for cybersecurity operations. It is the **default model** in CAI-Pro and offers:
+**ALIAS1** is the original authors' proprietary large language model, specifically fine-tuned and optimized for cybersecurity operations. It is the **default model** in CAI-Pro and offers:
 
 - **Specialized cybersecurity knowledge**: Deep understanding of offensive/defensive security
 - **Tool integration**: Native support for security tools and frameworks
@@ -297,7 +297,7 @@ CAI supports API keys for:
 - **Performance**: Optimized response times for security tasks
 - **Default selection**: Pre-configured as the primary model for all terminals
 
-**Learn more**: [https://aliasrobotics.com/alias1](https://aliasrobotics.com/alias1)
+**Learn more**: [https://github.com/woodymoo/CyberSecuirty-AI/alias1](https://github.com/woodymoo/CyberSecuirty-AI/alias1)
 
 ALIAS1 is automatically configured when you launch the CAI --tui. To explicitly set or verify the model:
 

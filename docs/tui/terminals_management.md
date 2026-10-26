@@ -1,7 +1,7 @@
 # CAI TUI Terminals Management
 
 > **⚡ CAI-Pro Exclusive Feature**  
-> The Terminal User Interface (TUI) is available exclusively in **CAI-Pro**. To access this feature and unlock advanced multi-agent workflows, visit [Alias Robotics](https://aliasrobotics.com/cybersecurityai.php) for more information.
+> The Terminal User Interface (TUI) is available exclusively in **CAI-Pro**. To access this feature and unlock advanced multi-agent workflows, visit [the original authors](https://github.com/woodymoo/CyberSecuirty-AI/cybersecurityai.php) for more information.
 
 ---
 
@@ -677,7 +677,7 @@ Each terminal is independent - use this for:
 - [Sidebar Features](sidebar_features.md) - Teams tab and other sidebar capabilities
 - [Advanced Features](advanced_features.md) - MCP, ICL, and session management
 
-For questions or issues, visit [CAI GitHub Issues](https://github.com/aliasrobotics/cai/issues).
+For questions or issues, visit [CAI GitHub Issues](https://github.com/woodymoo/CyberSecuirty-AI/issues).
 
 ---
 

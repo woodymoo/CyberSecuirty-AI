@@ -31,7 +31,7 @@ pip install cvss
 ### 1. Clone Repository with Submodules
 
 ```bash
-git clone https://github.com/aliasrobotics/cai.git
+git clone https://github.com/woodymoo/CyberSecuirty-AI.git
 cd cai
 git submodule update --init --recursive
 ```
@@ -276,7 +276,7 @@ For Jeopardy CTF, Attack & Defense, and Cyber Range benchmarks:
 !!! warning "CAI PRO Exclusive"
     Docker-based benchmarks (CTFs, A&D, Cyber Ranges) are available exclusively with **[CAI PRO](../cai_pro.md)**.
 
-    Contact research@aliasrobotics.com for access.
+    Contact the maintainer for access.
 
 ---
 
@@ -341,7 +341,7 @@ sudo systemctl start docker  # Linux
 
 - 📊 [CAIBench Research Paper](https://arxiv.org/pdf/2510.24317)
 - 🎯 [A&D CTF Evaluation Paper](https://arxiv.org/pdf/2510.17521)
-- 💻 [GitHub Repository](https://github.com/aliasrobotics/cai/tree/main/benchmarks)
+- 💻 [GitHub Repository](https://github.com/woodymoo/CyberSecuirty-AI/tree/main/benchmarks)
 - 📖 [Knowledge Benchmarks Guide](knowledge_benchmarks.md)
 - 🔒 [Privacy Benchmarks Guide](privacy_benchmarks.md)
 

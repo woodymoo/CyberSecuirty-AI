@@ -5,15 +5,15 @@
 **The open framework that established Cybersecurity AI as a research domain.**<br>
 *Archived. The research it produced continues.*
 
-[![Status](https://img.shields.io/badge/status-archived-6b7f8a?style=flat-square&labelColor=254450)](https://github.com/aliasrobotics/cai)
-[![Successor](https://img.shields.io/badge/successor-Cybersecurity_Superintelligence-62CAB1?style=flat-square&labelColor=254450)](https://aliasrobotics.com/cybersecuritysuperintelligence.php)
-[![Research](https://img.shields.io/badge/research-18_papers-62CAB1?style=flat-square&labelColor=254450)](https://aliasrobotics.com/research-security.php)
+[![Status](https://img.shields.io/badge/status-archived-6b7f8a?style=flat-square&labelColor=254450)](https://github.com/woodymoo/CyberSecuirty-AI)
+[![Successor](https://img.shields.io/badge/successor-Cybersecurity_Superintelligence-62CAB1?style=flat-square&labelColor=254450)](https://github.com/woodymoo/CyberSecuirty-AI/cybersecuritysuperintelligence.php)
+[![Research](https://img.shields.io/badge/research-18_papers-62CAB1?style=flat-square&labelColor=254450)](https://github.com/woodymoo/CyberSecuirty-AI/research-security.php)
 [![Funding](https://img.shields.io/badge/co--funded_by-EIC_Accelerator_RIS-7aafdc?style=flat-square&labelColor=254450)](https://cordis.europa.eu/project/id/101161136)
 [![License](https://img.shields.io/badge/license-MIT_%2B_Proprietary-c8b4e8?style=flat-square&labelColor=254450)](LICENSE)
 
-[![Move to CSI](https://img.shields.io/badge/MOVE_TO_CSI-62CAB1?style=for-the-badge&labelColor=254450)](https://aliasrobotics.com/cybersecuritysuperintelligence.php)
+[![Move to CSI](https://img.shields.io/badge/MOVE_TO_CSI-62CAB1?style=for-the-badge&labelColor=254450)](https://github.com/woodymoo/CyberSecuirty-AI/cybersecuritysuperintelligence.php)
 [![Read the research](https://img.shields.io/badge/READ_THE_RESEARCH-254450?style=for-the-badge&labelColor=254450)](#-the-research)
-[![Contact](https://img.shields.io/badge/CONTACT-529d86?style=for-the-badge&labelColor=254450)](mailto:support@aliasrobotics.com)
+[![Contact](https://img.shields.io/badge/CONTACT-529d86?style=for-the-badge&labelColor=254450)](https://github.com/woodymoo/CyberSecuirty-AI)
 
 </div>
 
@@ -33,14 +33,14 @@
 > **No further releases, bug fixes, security patches or support will be provided.**
 >
 > Everything CAI proved, and everything two years of open development taught us, has been carried
-> forward into **[Cybersecurity Superintelligence (CSI)](https://aliasrobotics.com/cybersecuritysuperintelligence.php)**.
+> forward into **[Cybersecurity Superintelligence (CSI)](https://github.com/woodymoo/CyberSecuirty-AI/cybersecuritysuperintelligence.php)**.
 
 > [!NOTE]
 > **Existing CAI professional (paid) customers — you are not stranded.**
 >
-> We recommend migrating to [CSI](https://aliasrobotics.com/cybersecuritysuperintelligence.php), where all
+> We recommend migrating to [CSI](https://github.com/woodymoo/CyberSecuirty-AI/cybersecuritysuperintelligence.php), where all
 > CAI capabilities, fixes and defenses now live. If CSI is not the right fit for your deployment,
-> **write to [support@aliasrobotics.com](mailto:support@aliasrobotics.com) to discuss extended support
+> **write to [the maintainer](https://github.com/woodymoo/CyberSecuirty-AI) to discuss extended support
 > for your existing CAI installation.** Subscriptions, active or lapsed, are handled case by case —
 > reach out before this archive becomes a problem for you.
 
@@ -61,20 +61,20 @@
 
 Cybersecurity AI (`CAI`) was a lightweight, open-source framework for building and deploying AI-powered
 offensive and defensive security automation. Released in April 2025 by
-[Alias Robotics](https://aliasrobotics.com), it became the *de facto* open framework for AI Security —
+[the original authors](https://github.com/woodymoo/CyberSecuirty-AI), it became the *de facto* open framework for AI Security —
 used by thousands of researchers and hundreds of organizations, and the experimental platform on which
 the **Cybersecurity AI** research domain was established.
 
 | | |
 |:--|:--|
 | **Last open-source release** | `0.5.10` — public PyPI [`cai-framework`](https://pypi.org/project/cai-framework/), December 2025 |
-| **Last professional release** | `v1.1.5` — **paid customers only**, private Alias Robotics package index (this tree) |
+| **Last professional release** | `v1.1.5` — **paid customers only**, private the original authors package index (this tree) |
 | **Development span** | March 2025 → August 2026 · 1,078 commits by 103 authors<sup>†</sup>, consolidated into one archival commit |
 | **Community** | ~9.8k stars · ~1.4k forks · 275 issues · 195 pull requests |
 | **Research output** | 18 papers and technical reports on `Cybersecurity AI` |
 | **Disclosure record** | 30+ CVE IDs · 2 CISA ICS advisories · 100+ robot vulnerabilities |
 | **Competition record** | Rank #1 at Neurogrid, Dragos OT and HTB "AI vs Humans" |
-| **Successor** | **[Cybersecurity Superintelligence (CSI)](https://aliasrobotics.com/cybersecuritysuperintelligence.php)** |
+| **Successor** | **[Cybersecurity Superintelligence (CSI)](https://github.com/woodymoo/CyberSecuirty-AI/cybersecuritysuperintelligence.php)** |
 
 <sup>†</sup> <sub>includes authors inherited from the upstream <code>openai-agents-python</code> history</sub>
 
@@ -98,7 +98,7 @@ the **Cybersecurity AI** research domain was established.
 | Complete final source tree (`v1.1.5`), read-only | Releases, bug fixes, security patches |
 | [`cai-framework`](https://pypi.org/project/cai-framework/) `0.5.10` on public PyPI | Issue triage, PR review, roadmap |
 | [Documentation](docs/) and [examples](examples/) as of the final release | Support of any kind, community or commercial |
-| [Issues](https://github.com/aliasrobotics/cai/issues) · [PRs](https://github.com/aliasrobotics/cai/pulls) as a public record | Browsable commit-by-commit history |
+| [Issues](https://github.com/woodymoo/CyberSecuirty-AI/issues) · [PRs](https://github.com/woodymoo/CyberSecuirty-AI/pulls) as a public record | Browsable commit-by-commit history |
 | All [papers, datasets and benchmarks](#-the-research) | `alias` model access through this framework |
 | Published [`cai-framework`](https://pypi.org/project/cai-framework/) releases on PyPI | Guarantees about third-party model providers |
 
@@ -111,12 +111,12 @@ longer browsable here. The code itself is fully intact and remains available in 
 |:--|:--|
 | **Final source tree** — every file of the last professional release (`v1.1.5`) | this branch |
 | **Open-source releases** — `0.3.9` through `0.5.10`, each with its own sdist and wheel | [`cai-framework` on PyPI](https://pypi.org/project/cai-framework/#history) |
-| **Development record** — 275 issues and 195 pull requests, with their diffs and discussion | [Issues](https://github.com/aliasrobotics/cai/issues) · [Pull requests](https://github.com/aliasrobotics/cai/pulls) |
-| **Documentation** as of the final release | [`docs/`](docs/) · [aliasrobotics.github.io/cai](https://aliasrobotics.github.io/cai/) |
-| **Research artifacts** — papers, benchmarks, datasets | [aliasrobotics.com/research-security.php](https://aliasrobotics.com/research-security.php) |
+| **Development record** — 275 issues and 195 pull requests, with their diffs and discussion | [Issues](https://github.com/woodymoo/CyberSecuirty-AI/issues) · [Pull requests](https://github.com/woodymoo/CyberSecuirty-AI/pulls) |
+| **Documentation** as of the final release | [`docs/`](docs/) · [github.com/woodymoo/CyberSecuirty-AI](https://github.com/woodymoo/CyberSecuirty-AI/) |
+| **Research artifacts** — papers, benchmarks, datasets | [github.com/woodymoo/CyberSecuirty-AI/research-security.php](https://github.com/woodymoo/CyberSecuirty-AI/research-security.php) |
 
 If you need something from the pre-archival history for research or compliance reasons, write to
-[research@aliasrobotics.com](mailto:research@aliasrobotics.com).
+[the maintainer](https://github.com/woodymoo/CyberSecuirty-AI).
 
 > [!WARNING]
 > An archived offensive-security framework is **unmaintained attack tooling**. Dependencies will age,
@@ -131,7 +131,7 @@ If you need something from the pre-archival history for research or compliance r
 
 **Six layers. One product. Built for professionals.**
 
-**[Cybersecurity Superintelligence (CSI)](https://aliasrobotics.com/cybersecuritysuperintelligence.php)**
+**[Cybersecurity Superintelligence (CSI)](https://github.com/woodymoo/CyberSecuirty-AI/cybersecuritysuperintelligence.php)**
 is CAI's evolution into an **enterprise product**. Where CAI was an open research framework — free, best
 effort, and built to prove what agentic security could do — CSI is a commercially supported, licensed
 platform for **professional security teams, enterprises, critical infrastructure operators, defense and
@@ -153,8 +153,8 @@ licensing and sovereignty guarantees that production and national-security use r
 ### What CSI fixes that CAI could not
 
 Two years of open development produced a precise inventory of what an agentic security framework gets
-wrong — most of it visible in [our issues](https://github.com/aliasrobotics/cai/issues) and
-[pull requests](https://github.com/aliasrobotics/cai/pulls). CSI is the answer to that inventory.
+wrong — most of it visible in [our issues](https://github.com/woodymoo/CyberSecuirty-AI/issues) and
+[pull requests](https://github.com/woodymoo/CyberSecuirty-AI/pulls). CSI is the answer to that inventory.
 
 | | |
 |:--|:--|
@@ -168,12 +168,12 @@ wrong — most of it visible in [our issues](https://github.com/aliasrobotics/ca
 <div align="center">
 <br>
 
-[![Move to CSI](https://img.shields.io/badge/%E2%86%92_MOVE_TO_CYBERSECURITY_SUPERINTELLIGENCE-62CAB1?style=for-the-badge&labelColor=254450)](https://aliasrobotics.com/cybersecuritysuperintelligence.php)
+[![Move to CSI](https://img.shields.io/badge/%E2%86%92_MOVE_TO_CYBERSECURITY_SUPERINTELLIGENCE-62CAB1?style=for-the-badge&labelColor=254450)](https://github.com/woodymoo/CyberSecuirty-AI/cybersecuritysuperintelligence.php)
 
 **CSI PRO** — for professional teams and enterprises<br>
 **CSI On-Premise** — air-gapped, sovereign deployments for defense, government and critical infrastructure
 
-[support@aliasrobotics.com](mailto:support@aliasrobotics.com)
+[the maintainer](https://github.com/woodymoo/CyberSecuirty-AI)
 
 </div>
 
@@ -189,7 +189,7 @@ wrong — most of it visible in [our issues](https://github.com/aliasrobotics/ca
 >
 > The framework is archived. **The research is the lasting contribution, and it continues.**
 >
-> Full curated index → **[aliasrobotics.com/research-security.php](https://aliasrobotics.com/research-security.php)**
+> Full curated index → **[github.com/woodymoo/CyberSecuirty-AI/research-security.php](https://github.com/woodymoo/CyberSecuirty-AI/research-security.php)**
 
 ### The arc
 
@@ -268,8 +268,8 @@ Documented end-to-end in
 
 [![Neurogrid](https://img.shields.io/badge/Neurogrid_CTF-rank_%231_%C2%B7_%2450%2C000_prize-f0d8a0?style=flat-square&labelColor=254450)](https://arxiv.org/abs/2512.02654)
 [![Neurogrid flags](https://img.shields.io/badge/Neurogrid_CTF-41_of_45_flags-f0d8a0?style=flat-square&labelColor=254450)](https://arxiv.org/abs/2512.02654)
-[![Dragos](https://img.shields.io/badge/Dragos_OT_CTF_2025-rank_%231_at_hours_7--8-62CAB1?style=flat-square&labelColor=254450)](https://aliasrobotics.com/case-study-dragos-CTF.php)
-[![Dragos challenges](https://img.shields.io/badge/Dragos_OT_CTF_2025-32_of_34_challenges-62CAB1?style=flat-square&labelColor=254450)](https://aliasrobotics.com/case-study-dragos-CTF.php)
+[![Dragos](https://img.shields.io/badge/Dragos_OT_CTF_2025-rank_%231_at_hours_7--8-62CAB1?style=flat-square&labelColor=254450)](https://github.com/woodymoo/CyberSecuirty-AI/case-study-dragos-CTF.php)
+[![Dragos challenges](https://img.shields.io/badge/Dragos_OT_CTF_2025-32_of_34_challenges-62CAB1?style=flat-square&labelColor=254450)](https://github.com/woodymoo/CyberSecuirty-AI/case-study-dragos-CTF.php)
 [![HTB AI](https://img.shields.io/badge/HTB_AI_vs_Humans-rank_%231_AI_worldwide-62CAB1?style=flat-square&labelColor=254450)](https://ctf.hackthebox.com/event/2000/scoreboard)
 [![HTB Spain](https://img.shields.io/badge/HTB_AI_vs_Humans-rank_%231_Spain-62CAB1?style=flat-square&labelColor=254450)](https://ctf.hackthebox.com/event/2000/scoreboard)
 [![HTB world](https://img.shields.io/badge/HTB_AI_vs_Humans-top_20_world-62CAB1?style=flat-square&labelColor=254450)](https://ctf.hackthebox.com/event/2000/scoreboard)
@@ -289,14 +289,14 @@ Documented end-to-end in
 
 | Domain | Case study | Outcome |
 |:--|:--|:--|
-| 🤖 Robotics | **[Unitree G1 Humanoid](https://aliasrobotics.com/case-study-humanoid-robot-g1.php)** | Unauthorised telemetry to China-related servers, exposed RSA keys with world-writable permissions, and surveillance capability implicating GDPR and international privacy law. |
-| ⚙️ OT | **[Dragos OT CTF 2025](https://aliasrobotics.com/case-study-dragos-CTF.php)** | Top-10 finish — Rank 1 during hours 7–8, 32 of 34 challenges, 37% velocity advantage over the leading human teams. |
-| 🌐 IT · Bug Bounty | **[HackerOne Platform](https://aliasrobotics.com/case-study-hackerone.php)** | HackerOne engineers used CAI to explore agentic architectures; CAI's Retester agent directly inspired their production deduplication agent, now handling millions of reports. |
-| ⚙️ OT | **[Ecoforest Heat Pumps](https://aliasrobotics.com/case-study-ecoforest.php)** | Critical flaw enabling unauthorised remote access and potential catastrophic failure, plus exposed credentials and DES weaknesses across the European installed base. |
-| 🤖 Robotics | **[Mobile Industrial Robots](https://aliasrobotics.com/case-study-cai-mir.php)** | Automated ROS message injection exposing unauthorised access to robot control systems and alarm triggers. |
-| 🌐 IT · Web | **[Mercado Libre](https://aliasrobotics.com/case-study-mercado-libre.php)** | Automated API enumeration surfacing user-data exposure risks at e-commerce scale. |
-| ⚙️ OT | **[MQTT broker](https://aliasrobotics.com/case-study-cai-mqtt-broker.php)** | Unauthenticated topic subscription in a Dockerised OT network, with injected values corrupting Grafana dashboards. |
-| 🌐 IT · Web | **[PortSwigger Web Security Academy](https://aliasrobotics.com/case-study-portswigger-1.php)** | Race-condition exploitation of a file-upload flaw, uploading and executing a web shell through parallel requests. |
+| 🤖 Robotics | **[Unitree G1 Humanoid](https://github.com/woodymoo/CyberSecuirty-AI/case-study-humanoid-robot-g1.php)** | Unauthorised telemetry to China-related servers, exposed RSA keys with world-writable permissions, and surveillance capability implicating GDPR and international privacy law. |
+| ⚙️ OT | **[Dragos OT CTF 2025](https://github.com/woodymoo/CyberSecuirty-AI/case-study-dragos-CTF.php)** | Top-10 finish — Rank 1 during hours 7–8, 32 of 34 challenges, 37% velocity advantage over the leading human teams. |
+| 🌐 IT · Bug Bounty | **[HackerOne Platform](https://github.com/woodymoo/CyberSecuirty-AI/case-study-hackerone.php)** | HackerOne engineers used CAI to explore agentic architectures; CAI's Retester agent directly inspired their production deduplication agent, now handling millions of reports. |
+| ⚙️ OT | **[Ecoforest Heat Pumps](https://github.com/woodymoo/CyberSecuirty-AI/case-study-ecoforest.php)** | Critical flaw enabling unauthorised remote access and potential catastrophic failure, plus exposed credentials and DES weaknesses across the European installed base. |
+| 🤖 Robotics | **[Mobile Industrial Robots](https://github.com/woodymoo/CyberSecuirty-AI/case-study-cai-mir.php)** | Automated ROS message injection exposing unauthorised access to robot control systems and alarm triggers. |
+| 🌐 IT · Web | **[Mercado Libre](https://github.com/woodymoo/CyberSecuirty-AI/case-study-mercado-libre.php)** | Automated API enumeration surfacing user-data exposure risks at e-commerce scale. |
+| ⚙️ OT | **[MQTT broker](https://github.com/woodymoo/CyberSecuirty-AI/case-study-cai-mqtt-broker.php)** | Unauthenticated topic subscription in a Dockerised OT network, with injected values corrupting Grafana dashboards. |
+| 🌐 IT · Web | **[PortSwigger Web Security Academy](https://github.com/woodymoo/CyberSecuirty-AI/case-study-portswigger-1.php)** | Race-condition exploitation of a file-upload flaw, uploading and executing a web shell through parallel requests. |
 
 **Recorded proofs of concept**
 
@@ -308,7 +308,7 @@ Documented end-to-end in
 |:--|:--|
 | [![asciicast](https://asciinema.org/a/713487.svg)](https://asciinema.org/a/713487) | [![asciicast](https://asciinema.org/a/713485.svg)](https://asciinema.org/a/713485) |
 
-More at [aliasrobotics.com/case-studies-robot-cybersecurity.php](https://aliasrobotics.com/case-studies-robot-cybersecurity.php).
+More at [github.com/woodymoo/CyberSecuirty-AI/case-studies-robot-cybersecurity.php](https://github.com/woodymoo/CyberSecuirty-AI/case-studies-robot-cybersecurity.php).
 
 </details>
 
@@ -317,15 +317,15 @@ More at [aliasrobotics.com/case-studies-robot-cybersecurity.php](https://aliasro
 
 <br>
 
-The Cybersecurity AI line grew out of robot-security work at Alias Robotics dating back to 2018:
+The Cybersecurity AI line grew out of robot-security work at the original authors dating back to 2018:
 
-[SROS2](https://aliasrobotics.com/files/SROS2.pdf) *(IROS 2022)* ·
-[Robot Cybersecurity, a review](https://aliasrobotics.com/files/robot_cybersecurity_review.pdf) ·
-[Robot Teardown](https://aliasrobotics.com/files/robot_teardown_paper.pdf) ·
+[SROS2](https://github.com/woodymoo/CyberSecuirty-AI/files/SROS2.pdf) *(IROS 2022)* ·
+[Robot Cybersecurity, a review](https://github.com/woodymoo/CyberSecuirty-AI/files/robot_cybersecurity_review.pdf) ·
+[Robot Teardown](https://github.com/woodymoo/CyberSecuirty-AI/files/robot_teardown_paper.pdf) ·
 [Cybersecurity in Robotics](https://arxiv.org/abs/2103.05789) ·
-[Securing robots in OT environments](https://aliasrobotics.com/files/securing_robot_endpoints_ot_environment.pdf) ·
+[Securing robots in OT environments](https://github.com/woodymoo/CyberSecuirty-AI/files/securing_robot_endpoints_ot_environment.pdf) ·
 [alurity](https://arxiv.org/abs/2010.07759) ·
-[Red teaming ROS in industry](https://aliasrobotics.com/files/red_teaming_rosindustrial.pdf) ·
+[Red teaming ROS in industry](https://github.com/woodymoo/CyberSecuirty-AI/files/red_teaming_rosindustrial.pdf) ·
 [DevSecOps in Robotics](https://arxiv.org/abs/2003.10402) ·
 [Akerbeltz, industrial robot ransomware](https://arxiv.org/abs/1912.07714) *(IEEE IRC 2020)* ·
 [Robot Vulnerability Database](https://arxiv.org/abs/1912.11299) ·
@@ -394,7 +394,7 @@ CAI is what that question produced: an open framework used to measure, publicly 
 how far agentic AI can go in security. The 18 papers above are the public research output of that work,
 and its defensive conclusions — GenAI-native defender agents, dynamic cyber ranges, guardrail frameworks,
 sovereign on-premise models — now live on in
-**[CSI](https://aliasrobotics.com/cybersecuritysuperintelligence.php)**.
+**[CSI](https://github.com/woodymoo/CyberSecuirty-AI/cybersecuritysuperintelligence.php)**.
 
 <sub>*Funded by the European Union. Views and opinions expressed are however those of the authors only and
 do not necessarily reflect those of the European Union or the European Innovation Council. Neither the
@@ -407,7 +407,7 @@ European Union nor the granting authority can be held responsible for them.*</su
 > [!CAUTION]
 > Unmaintained software. No fixes, no patches, no support. Use only in isolated environments against
 > systems you are authorised to test. For anything else, use
-> [CSI](https://aliasrobotics.com/cybersecuritysuperintelligence.php).
+> [CSI](https://github.com/woodymoo/CyberSecuirty-AI/cybersecuritysuperintelligence.php).
 
 `pip install cai-framework` installs the **open-source line, frozen at `0.5.10`** (public PyPI, December
 2025). The `v1.1.5` tree in this repository was the professional distribution for paid customers and was
@@ -427,7 +427,7 @@ pip install cai-framework
 # minimal .env — fill in the provider key you intend to use
 echo -e 'OPENAI_API_KEY="sk-1234"\nANTHROPIC_API_KEY=""\nOLLAMA=""\nPROMPT_TOOLKIT_NO_CPR=1\nCAI_STREAM=false' > .env
 
-# run without an Alias Robotics license
+# run without an the original authors license
 export CAI_LICENSE_OFF=1
 cai   # the first launch can take up to 30 seconds
 ```
@@ -611,20 +611,20 @@ Machine-readable metadata lives in [`CITATION.cff`](CITATION.cff).
 
 ## 🙏 Acknowledgements
 
-**To the European Union.** CAI was developed by [Alias Robotics](https://aliasrobotics.com) and co-funded
+**To the European Union.** CAI was developed by [the original authors](https://github.com/woodymoo/CyberSecuirty-AI) and co-funded
 through the EIC Accelerator project **RIS** ([GA 101161136](https://cordis.europa.eu/project/id/101161136)),
 HORIZON-EIC-2023-ACCELERATOR-01 call. That funding is the reason this research exists and is public.
 
 **To every contributor** who filed one of the 275 issues, opened one of the 195 pull requests, ported CAI
 to new platforms, wrote agents, broke things in creative ways and told us about it: thank you. Much of what
-makes [CSI](https://aliasrobotics.com/cybersecuritysuperintelligence.php) robust today was learned from
+makes [CSI](https://github.com/woodymoo/CyberSecuirty-AI/cybersecuritysuperintelligence.php) robust today was learned from
 your reports. Those 275 issues and 195 pull requests stay public here permanently, and the work of all
 103 authors is present in every file of this snapshot.
 
 **To our academic collaborators** at partner institutions worldwide, for co-authorship, rigour, and for
 pushing benchmark design, curricula and defense mechanisms further than a company could alone. Research
 collaboration on Cybersecurity AI continues at
-[research@aliasrobotics.com](mailto:research@aliasrobotics.com) — PhD projects, benchmarking studies with
+[the maintainer](https://github.com/woodymoo/CyberSecuirty-AI) — PhD projects, benchmarking studies with
 [CAIBench](https://arxiv.org/abs/2510.24317), security education initiatives and dataset access.
 
 **To the open source we built on** — agentic principles inspired by OpenAI's
@@ -659,10 +659,10 @@ See [`LICENSE`](LICENSE) · [`LICENSE-MIT`](LICENSE-MIT) · [`DISCLAIMER`](DISCL
 
 ### The framework is archived. The research is not.
 
-[![Research](https://img.shields.io/badge/RESEARCH_INDEX-254450?style=for-the-badge&labelColor=254450)](https://aliasrobotics.com/research-security.php)
-[![CSI](https://img.shields.io/badge/CYBERSECURITY_SUPERINTELLIGENCE-62CAB1?style=for-the-badge&labelColor=254450)](https://aliasrobotics.com/cybersecuritysuperintelligence.php)
-[![Alias Robotics](https://img.shields.io/badge/ALIAS_ROBOTICS-529d86?style=for-the-badge&labelColor=254450)](https://aliasrobotics.com)
+[![Research](https://img.shields.io/badge/RESEARCH_INDEX-254450?style=for-the-badge&labelColor=254450)](https://github.com/woodymoo/CyberSecuirty-AI/research-security.php)
+[![CSI](https://img.shields.io/badge/CYBERSECURITY_SUPERINTELLIGENCE-62CAB1?style=for-the-badge&labelColor=254450)](https://github.com/woodymoo/CyberSecuirty-AI/cybersecuritysuperintelligence.php)
+[![the original authors](https://img.shields.io/badge/ALIAS_ROBOTICS-529d86?style=for-the-badge&labelColor=254450)](https://github.com/woodymoo/CyberSecuirty-AI)
 
-<sub>Made in the Basque Country 🇪🇺 · [research@aliasrobotics.com](mailto:research@aliasrobotics.com) · [support@aliasrobotics.com](mailto:support@aliasrobotics.com)</sub>
+<sub>Made in the Basque Country 🇪🇺 · [the maintainer](https://github.com/woodymoo/CyberSecuirty-AI) · [the maintainer](https://github.com/woodymoo/CyberSecuirty-AI)</sub>
 
 </div>

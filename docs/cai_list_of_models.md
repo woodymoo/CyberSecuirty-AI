@@ -4,7 +4,7 @@ The **Cybersecurity AI (CAI)** platform provides seamless integration with multi
 
 ---
 
-## 🚀 Alias Robotics Models (CAI PRO Exclusive)
+## 🚀 the original authors Models (CAI PRO Exclusive)
 
 ### `alias1` - State-of-the-Art Cybersecurity Model
 
@@ -30,8 +30,8 @@ The **Cybersecurity AI (CAI)** platform provides seamless integration with multi
 - Bug bounty hunting optimization
 
 **Learn More:**
-- 📊 [View Benchmarks](https://aliasrobotics.com/alias1.php#benchmarking)
-- 📖 [Technical Details](https://aliasrobotics.com/alias1.php)
+- 📊 [View Benchmarks](https://github.com/woodymoo/CyberSecuirty-AI/alias1.php#benchmarking)
+- 📖 [Technical Details](https://github.com/woodymoo/CyberSecuirty-AI/alias1.php)
 - 🚀 [Upgrade to CAI PRO](cai_pro.md)
 
 </div>
@@ -43,7 +43,7 @@ The **Cybersecurity AI (CAI)** platform provides seamless integration with multi
 
     **Migration:** If you're currently using `alias0`, simply update your configuration to use `alias1` with your CAI PRO subscription.
 
-    [Learn about alias0 (historical reference) →](https://aliasrobotics.com/alias0.php)
+    [Learn about alias0 (historical reference) →](https://github.com/woodymoo/CyberSecuirty-AI/alias0.php)
 
 ---
 
@@ -230,6 +230,6 @@ CAI's effectiveness is validated through peer-reviewed research:
 - 🛡️ [**Prompt Injection Defense**](https://arxiv.org/pdf/2508.21669) - Four-layer guardrail security system
 - 📚 [**CAI Fluency**](https://arxiv.org/pdf/2508.13588) - Educational framework for democratizing AI security
 
-**Explore all research:** [Alias Robotics Research Papers](https://aliasrobotics.com/research-security.php#papers)
+**Explore all research:** [the original authors Research Papers](https://github.com/woodymoo/CyberSecuirty-AI/research-security.php#papers)
 
 Questions? Check our [FAQ](cai_faq.md) or [join our Discord](https://discord.gg/fnUFcTaQAC).

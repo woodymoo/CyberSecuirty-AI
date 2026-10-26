@@ -119,7 +119,7 @@ cd ./configure --enable-optimizations
 sudo make altinstall # This command takes long to execute
 
 # Clone CAI's source code
-git clone https://github.com/aliasrobotics/cai && cd cai
+git clone https://github.com/woodymoo/CyberSecuirty-AI && cd cai
 
 # Create virtual environment
 python3.12 -m venv cai_env
@@ -144,7 +144,7 @@ OPENAI_API_KEY="sk-1234"
 # OPENAI_API_KEY MUST BE FILLED-IN. 
 # It should contain either "sk-123" (as a placeholder) 
 # or your actual API key. 
-# See https://github.com/aliasrobotics/cai/issues/27
+# See https://github.com/woodymoo/CyberSecuirty-AI/issues/27
 
 ANTHROPIC_API_KEY=""
 OLLAMA=""

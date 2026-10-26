@@ -35,6 +35,4 @@ paths = [
 regexes = [
   '''sk-(alias|live|test|proj|openai|anthropic)-(1234567890|0123456789|your[-_].*|placeholder|example|xxx+|fake|dummy|key[-_]?here|planner|mock|fixture|stub|noop|sample)''',
   '''sk-alias-1234567890''',
-  # Alias private package index URL (publicly visible, not a secret).
-  '''packages\.aliasrobotics\.com''',
 ]

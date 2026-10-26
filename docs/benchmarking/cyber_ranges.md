@@ -179,7 +179,7 @@ python benchmarks/eval_cyberrange.py --range range-01 --model alias1
 python benchmarks/eval_cyberrange.py --benchmark all --model alias1
 ```
 
-Contact research@aliasrobotics.com for detailed setup instructions and access.
+Contact the maintainer for detailed setup instructions and access.
 
 ---
 
@@ -213,7 +213,7 @@ This makes cyber ranges the gold standard for evaluating production-ready cybers
 - 🤖 [**Automation vs Autonomy**](https://www.arxiv.org/pdf/2506.23592) (2025)
   6-level taxonomy applicable to cyber range operations.
 
-**[View all research →](https://aliasrobotics.com/research-security.php#papers)**
+**[View all research →](https://github.com/woodymoo/CyberSecuirty-AI/research-security.php#papers)**
 
 ---
 

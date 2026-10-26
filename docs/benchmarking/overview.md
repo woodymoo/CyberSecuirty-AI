@@ -81,9 +81,9 @@ CAIBench is backed by peer-reviewed research:
     🎯 [**Evaluating Agentic Cybersecurity in Attack/Defense CTFs**](https://arxiv.org/pdf/2510.17521) (2025)
     Real-world evaluation showing defensive agents achieved **54.3% patching success** versus **28.3% offensive initial access**.
 
-**[View full research library →](https://aliasrobotics.com/research-security.php#papers)**
+**[View full research library →](https://github.com/woodymoo/CyberSecuirty-AI/research-security.php#papers)**
 
-**[Browse benchmark source code →](https://github.com/aliasrobotics/cai/tree/main/benchmarks)**
+**[Browse benchmark source code →](https://github.com/woodymoo/CyberSecuirty-AI/tree/main/benchmarks)**
 
 ---
 
@@ -156,7 +156,7 @@ Ready to run benchmarks? Check out:
 
 - **[Running Benchmarks](running_benchmarks.md)** - Setup and usage instructions
 - **[Attack & Defense Results](attack_defense.md)** - See alias1's superior performance
-- **[GitHub Repository](https://github.com/aliasrobotics/cai/tree/main/benchmarks)** - Source code and examples
+- **[GitHub Repository](https://github.com/woodymoo/CyberSecuirty-AI/tree/main/benchmarks)** - Source code and examples
 
 ---
 

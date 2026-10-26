@@ -855,7 +855,7 @@ def main():
             if api_key is None:
                 raise RuntimeError(f"API_BASE or API_KEY not found for backend {args.backend}")
         if args.backend=='alias':
-            api_base = "https://api.aliasrobotics.com:666/"
+            api_base = os.getenv("OPENAI_API_BASE", "https://api.openai.com/v1/")
             custom_llm_provider="openai"
     else:
         raise RuntimeError("Unknown backend")

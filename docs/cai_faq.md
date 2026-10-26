@@ -8,7 +8,7 @@
     OLLAMA_API_BASE=http://IP:PORT/v1
     ```
     
-    See the following issues that treat this topic in more detail: [#76](https://github.com/aliasrobotics/cai/issues/76), [#83](https://github.com/aliasrobotics/cai/issues/83) and [#82](https://github.com/aliasrobotics/cai/issues/82)
+    See the following issues that treat this topic in more detail: [#76](https://github.com/woodymoo/CyberSecuirty-AI/issues/76), [#83](https://github.com/woodymoo/CyberSecuirty-AI/issues/83) and [#82](https://github.com/woodymoo/CyberSecuirty-AI/issues/82)
 
 
 ??? question "Where are all the caiextensions?"

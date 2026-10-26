@@ -84,7 +84,7 @@ See the [Getting Started Guide](getting_started.md) for detailed setup instructi
 
 ### Server Requirements
 - **CAI API Server**: v0.7.0 or later
-- **API Key**: Valid `ALIAS_API_KEY` from [Alias Robotics](https://aliasrobotics.com)
+- **API Key**: Valid `ALIAS_API_KEY` from [the original authors](https://github.com/woodymoo/CyberSecuirty-AI)
 - **Network**: Server must be accessible from your iOS device
 
 ## Key Features
@@ -215,10 +215,10 @@ Watch CAI Mobile UI in action:
 ## Community and Support
 
 - **TestFlight Beta**: [Join Now](https://testflight.apple.com/join/nXZZD4Z5)
-- **Documentation**: [https://docs.aliasrobotics.com](https://docs.aliasrobotics.com)
-- **GitHub Issues**: [Report iOS App Issues](https://github.com/aliasrobotics/cai/issues)
-- **Discord**: [Join our community](https://discord.gg/aliasrobotics)
-- **Twitter**: [@aliasrobotics](https://twitter.com/aliasrobotics)
+- **Documentation**: [https://github.com/woodymoo/CyberSecuirty-AI](https://github.com/woodymoo/CyberSecuirty-AI)
+- **GitHub Issues**: [Report iOS App Issues](https://github.com/woodymoo/CyberSecuirty-AI/issues)
+- **Discord**: [Join our community](https://discord.gg/woodymoo)
+- **Twitter**: [@woodymoo](https://twitter.com/woodymoo)
 
 ## What's Next?
 

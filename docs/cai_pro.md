@@ -2,7 +2,7 @@
 
 > **⚡ Upgrade to CAI PRO**
 > Access advanced features, unlimited `alias1` tokens, and professional support.
-> **[Learn More & Upgrade →](https://aliasrobotics.com/cybersecurityai.php)**
+> **[Learn More & Upgrade →](https://github.com/woodymoo/CyberSecuirty-AI/cybersecurityai.php)**
 
 ---
 
@@ -77,7 +77,7 @@ Trained specifically for:
 
 </div>
 
-[View Full Benchmarks →](https://aliasrobotics.com/alias1.php#benchmarking)
+[View Full Benchmarks →](https://github.com/woodymoo/CyberSecuirty-AI/alias1.php#benchmarking)
 
 ### Research Validation
 
@@ -98,7 +98,7 @@ The performance of `alias1` and the CAI framework is validated through rigorous 
 - 📚 [**CAI Fluency: Educational Framework**](https://arxiv.org/pdf/2508.13588) (2025)
   Comprehensive educational platform for democratizing cybersecurity AI knowledge and best practices.
 
-**Explore all research:** [Alias Robotics Research Library](https://aliasrobotics.com/research-security.php#papers) (24+ peer-reviewed publications)
+**Explore all research:** [the original authors Research Library](https://github.com/woodymoo/CyberSecuirty-AI/research-security.php#papers) (24+ peer-reviewed publications)
 
 ---
 
@@ -211,7 +211,7 @@ Generate professional security reports automatically:
 
 ### 1. Subscribe
 
-Visit [https://aliasrobotics.com/cybersecurityai.php](https://aliasrobotics.com/cybersecurityai.php) to:
+Visit [https://github.com/woodymoo/CyberSecuirty-AI/cybersecurityai.php](https://github.com/woodymoo/CyberSecuirty-AI/cybersecurityai.php) to:
 
 - Choose your subscription plan
 - Set up billing (secure European payment processing)
@@ -264,7 +264,7 @@ CAI> --tui
 
 **CAI PRO subscribers receive:**
 
-- **Email Support**: research@aliasrobotics.com (48-hour response SLA)
+- **Email Support**: the maintainer (48-hour response SLA)
 - **Priority Discord**: Exclusive #pro-support channel
 - **Quarterly Strategy Calls**: Discuss roadmap and feature requests
 - **Custom Development**: Request tailored agents and extensions
@@ -281,9 +281,9 @@ CAI> --tui
 Join the CAI community (free for all users):
 
 - **[Discord](https://discord.gg/fnUFcTaQAC)**: Active community of 1000+ security researchers
-- **[GitHub](https://github.com/aliasrobotics/cai)**: Source code, issues, and contributions
-- **[Research Papers](https://aliasrobotics.com/cybersecurityai.php)**: Academic publications
-- **[Case Studies](https://aliasrobotics.com/case-studies-robot-cybersecurity.php)**: Real-world applications
+- **[GitHub](https://github.com/woodymoo/CyberSecuirty-AI)**: Source code, issues, and contributions
+- **[Research Papers](https://github.com/woodymoo/CyberSecuirty-AI/cybersecurityai.php)**: Academic publications
+- **[Case Studies](https://github.com/woodymoo/CyberSecuirty-AI/case-studies-robot-cybersecurity.php)**: Real-world applications
 
 ---
 
@@ -303,7 +303,7 @@ No. The Community Edition license restricts use to research and educational purp
 
 ### Do you offer team/enterprise pricing?
 
-Yes! Contact research@aliasrobotics.com for:
+Yes! Contact the maintainer for:
 - **Team plans** (5+ users): Volume discounts
 - **Enterprise plans** (20+ users): Custom pricing, on-premise deployment
 - **Academic licenses**: Special rates for universities and research institutions
@@ -352,13 +352,13 @@ Yes! CAI PRO includes:
 
 **€350/month** · No long-term contracts · Cancel anytime
 
-**[Get CAI PRO →](https://aliasrobotics.com/cybersecurityai.php)**
+**[Get CAI PRO →](https://github.com/woodymoo/CyberSecuirty-AI/cybersecurityai.php)**
 
 </div>
 
 ---
 
 <small>
-*Have questions? Contact research@aliasrobotics.com*
-*Need a quote for your organization? [Request enterprise pricing →](mailto:research@aliasrobotics.com?subject=CAI%20PRO%20Enterprise%20Inquiry)*
+*Have questions? Contact the maintainer*
+*Need a quote for your organization? [Request enterprise pricing →](https://github.com/woodymoo/CyberSecuirty-AI?subject=CAI%20PRO%20Enterprise%20Inquiry)*
 </small>

@@ -2,10 +2,10 @@
 
 <div align="center">
   <p>
-    <a align="center" href="" target="https://github.com/aliasrobotics/CAI">
+    <a align="center" href="" target="https://github.com/woodymoo/CAI">
       <img
         width="100%"
-        src="https://github.com/aliasrobotics/cai/raw/main/media/cai.png"
+        src="https://github.com/woodymoo/CyberSecuirty-AI/raw/main/media/cai.png"
       >
     </a>
   </p>
@@ -20,15 +20,15 @@
 [![](https://img.shields.io/badge/HTB_"Human_vs_AI"_CTF-top_20_World-red.svg)](https://ctf.hackthebox.com/event/2000/scoreboard)
 [![](https://img.shields.io/badge/HTB_"Human_vs_AI"_CTF-750_$-yellow.svg)](https://ctf.hackthebox.com/event/2000/scoreboard)
 [![](https://img.shields.io/badge/Mistral_AI_Robotics_Hackathon-2500_$-yellow.svg)](https://lu.ma/roboticshack?tk=RuryKF)
-[![](https://img.shields.io/badge/Bug_rewards-250_$-yellow.svg)](https://github.com/aliasrobotics/cai)
+[![](https://img.shields.io/badge/Bug_rewards-250_$-yellow.svg)](https://github.com/woodymoo/CyberSecuirty-AI)
 
 ## 📦 Package Attributes
 [![version](https://badge.fury.io/py/cai-framework.svg)](https://badge.fury.io/py/cai-framework)
 [![downloads](https://img.shields.io/pypi/dm/cai-framework)](https://pypistats.org/packages/cai-framework)
-[![Linux](https://img.shields.io/badge/Linux-Supported-brightgreen?logo=linux&logoColor=white)](https://github.com/aliasrobotics/cai)
-[![OS X](https://img.shields.io/badge/OS%20X-Supported-brightgreen?logo=apple&logoColor=white)](https://github.com/aliasrobotics/cai)
-[![Windows](https://img.shields.io/badge/Windows-Supported-brightgreen?logo=windows&logoColor=white)](https://github.com/aliasrobotics/cai)
-[![Android](https://img.shields.io/badge/Android-Supported-brightgreen?logo=android&logoColor=white)](https://github.com/aliasrobotics/cai)
+[![Linux](https://img.shields.io/badge/Linux-Supported-brightgreen?logo=linux&logoColor=white)](https://github.com/woodymoo/CyberSecuirty-AI)
+[![OS X](https://img.shields.io/badge/OS%20X-Supported-brightgreen?logo=apple&logoColor=white)](https://github.com/woodymoo/CyberSecuirty-AI)
+[![Windows](https://img.shields.io/badge/Windows-Supported-brightgreen?logo=windows&logoColor=white)](https://github.com/woodymoo/CyberSecuirty-AI)
+[![Android](https://img.shields.io/badge/Android-Supported-brightgreen?logo=android&logoColor=white)](https://github.com/woodymoo/CyberSecuirty-AI)
 [![Discord](https://img.shields.io/badge/Discord-7289DA?logo=discord&logoColor=white)](https://discord.gg/fnUFcTaQAC)
 [![arXiv](https://img.shields.io/badge/arXiv-2504.06017-b31b1b.svg)](https://arxiv.org/pdf/2504.06017)
 </div>
@@ -45,7 +45,7 @@ A lightweight, ergonomic framework for building bug bounty-ready Cybersecurity A
 | [![asciicast](https://asciinema.org/a/713487.svg)](https://asciinema.org/a/713487) | [![asciicast](https://asciinema.org/a/713485.svg)](https://asciinema.org/a/713485) |
 
 > [!WARNING]
-> ⚠️  CAI is in active development, so don't expect it to work flawlessly. Instead, contribute by raising an issue or [sending a PR](https://github.com/aliasrobotics/cai/pulls).
+> ⚠️  CAI is in active development, so don't expect it to work flawlessly. Instead, contribute by raising an issue or [sending a PR](https://github.com/woodymoo/CyberSecuirty-AI/pulls).
 >
 > Access to this library and the use of information, materials (or portions thereof), is **<u>not intended</u>, and is <u>prohibited</u>, where such access or use violates applicable laws or regulations**. By no means the authors encourage or promote the unauthorized tampering with running systems. This can cause serious human harm and material damages.
 >

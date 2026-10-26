@@ -255,7 +255,7 @@ The `feature/improved-system-prompts` branch contains enhanced system prompts us
 - [LLM-as-a-Judge (2306.05685)](https://arxiv.org/abs/2306.05685) - Judging LLM-as-a-Judge
 - [Constitutional AI (2212.08073)](https://arxiv.org/abs/2212.08073) - Training helpful and harmless AI
 - [Jailbreak Techniques (2404.04475)](https://arxiv.org/abs/2404.04475) - Survey of jailbreaking methods
-- MR 388: https://gitlab.com/aliasrobotics/alias_research/cai/-/merge_requests/388
+- MR 388: https://gitlab.com/woodymoo/alias_research/cai/-/merge_requests/388
 
 ---
 

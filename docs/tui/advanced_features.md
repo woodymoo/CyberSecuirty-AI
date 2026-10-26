@@ -1,7 +1,7 @@
 # Advanced Features
 
 > **⚡ CAI-Pro Exclusive Feature**  
-> The Terminal User Interface (TUI) is available exclusively in **CAI-Pro**. To access this feature and unlock advanced multi-agent workflows, visit [Alias Robotics](https://aliasrobotics.com/cybersecurityai.php) for more information.
+> The Terminal User Interface (TUI) is available exclusively in **CAI-Pro**. To access this feature and unlock advanced multi-agent workflows, visit [the original authors](https://github.com/woodymoo/CyberSecuirty-AI/cybersecurityai.php) for more information.
 
 ---
 
