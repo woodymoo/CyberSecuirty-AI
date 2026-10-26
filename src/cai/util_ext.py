@@ -1,153 +1,32 @@
-"""Extended utilities for CAI"""
-import base64
-import hashlib
-import json
+"""Extended utilities for CAI.
+
+This fork runs permanently in open-source mode. The Alias license check and its
+remote key-validation phone-home, the system fingerprinting (MAC / machine-id),
+the embedded signature verification, and the private Alias package index have
+all been removed. The startup never contacts Alias; updates come from public PyPI.
+"""
 import os
-import platform
-import random
-import string
 import subprocess
 import sys
-import tempfile
-import uuid
-from pathlib import Path
 from typing import Optional, Dict, Any
-
-# Embedded server public key
-_K = """-----BEGIN PUBLIC KEY-----
-MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA98imbEha/70cxkfXIbyJ
-dbpM6y7X+MWMVcdSTwAeb+jzLRfKzMZVXeEaYzkzH+STlDiqmb+XufX+guhmpyKz
-RbV3rcJeM2s4QJ3OcsbOnxVG9Eyo6LrHu/aU71LOW8pPD5eIh0/BRCDojG56pZ8N
-CFF0Rsfve6SH6waOibUoovMYu2ZfzzGb/oeyPsL8yb4fIqnOOH85FbAm8aCrpGNZ
-6A8U67s6TQAnqLFn6x2h901K2GhNxweRQqJ5n2qwMCPLmEHyKZiLo8GbK3lrcnbj
-j6qNKkgoL+b9rcYJ1toLP8btTHIyQX2N+gWVgxzMNPtDfCKIJm4Jag0fIEiVsNF2
-QZ7NaMjRqtRs8WIzmUWBMVoyWqWCty6sNrum/uYZNCcNma855IeFEOrmYNzNEWxP
-5xgJT/Hvs9/bTOUWqrB3L/8EGeV3hrhUZ1km25mogAnSOcFWviqObREc/1yTfsB4
-Ln0Hv4tvILd74aBqG1zRF0Wjd25O7vl8oY3RBp7iCtrq+CdOI1jrTx4yo9JM/DKu
-MfTbFI1YPjuJahQjbbKHvCKPKq6pxCQBZ91SsBHdM2tHLRXZ1olO0y0trety+fjx
-T9W1tmmRU9QyFvS9LsKdjfBOzyprC5MCz740pctKkSspYn88R19N8Cu3MihaTUw6
-/JHvKMwL2+DgFmF7Dqjc+jsCAwEAAQ==
------END PUBLIC KEY-----"""
-
-_V_URL = "https://api.aliasrobotics.com:665/v1/validate"
-_I_URL = "https://api.aliasrobotics.com:666/key/info"
-
-try:
-    from Crypto.Hash import SHA256
-    from Crypto.PublicKey import RSA
-    from Crypto.Signature import pkcs1_15
-    _crypto_available = True
-except ImportError:
-    try:
-        from Cryptodome.Hash import SHA256
-        from Cryptodome.PublicKey import RSA
-        from Cryptodome.Signature import pkcs1_15
-        _crypto_available = True
-    except ImportError:
-        _crypto_available = False
-
-
-def _h() -> str:
-    """Generate system fingerprint"""
-    p: list[str] = []
-    try:
-        n = uuid.getnode()
-        if n:
-            p.append(f"mac:{n:012x}")
-    except Exception:
-        pass
-    for path in (Path("/etc/machine-id"), Path("/var/lib/dbus/machine-id")):
-        try:
-            if path.exists():
-                v = path.read_text().strip()
-                if v:
-                    p.append(f"machine:{v}")
-                    break
-        except Exception:
-            pass
-    for g, l in ((platform.node, "node"), (platform.system, "system"), (platform.machine, "arch")):
-        try:
-            v = g()
-            if v:
-                p.append(f"{l}:{v}")
-        except Exception:
-            pass
-    if not p:
-        r = ''.join(random.choices(string.ascii_letters + string.digits, k=16))
-        p.append("fallback:" + r)
-    d = hashlib.sha256('|'.join(sorted(p)).encode()).hexdigest()
-    return d[:32]
-
-
-def _n(l: int = 32) -> str:
-    """Generate nonce"""
-    a = string.ascii_letters + string.digits
-    return ''.join(random.choice(a) for _ in range(l))
-
-
-def _s(sig_b64: str, msg: str) -> bool:
-    """Verify signature"""
-    if not _crypto_available:
-        return False
-    try:
-        k = RSA.import_key(_K)
-        sig = base64.b64decode(sig_b64)
-        h = SHA256.new(msg.encode('utf-8'))
-        pkcs1_15.new(k).verify(h, sig)
-        return True
-    except Exception:
-        return False
-
-
-def _c(k: str) -> bool:
-    """Check key via info endpoint (httpx; same status semantics as legacy curl check)."""
-    try:
-        import httpx
-
-        timeout = httpx.Timeout(3.0, connect=3.0)
-        with httpx.Client(timeout=timeout) as client:
-            r = client.get(
-                _I_URL,
-                headers={"Authorization": f"Bearer {k}"},
-            )
-        code = r.status_code
-        # 403 = virtual key (valid for LLM routes), 500/502/429 = proxy/rate-limit
-        return code in (200, 403, 500, 502, 429)
-    except Exception:
-        return False
-
-
-def _v(k: str) -> bool:
-    """Validate key"""
-    if not k or not k.strip():
-        return False
-    # Only check if key is valid via /key/info endpoint (HTTP 200 = valid)
-    # No machine-specific validation
-    return _c(k)
 
 
 def _license_off() -> bool:
-    """Return True when ``CAI_LICENSE_OFF`` is set to a truthy value.
+    """Always True: this fork never contacts the Alias license server.
 
-    When enabled, CAI runs in open-source mode: the startup license check is
-    bypassed and update operations target the public PyPI ``cai-framework``
-    package instead of the private Alias package index.
+    Retained so existing callers keep working. CAI runs in open-source mode and
+    update operations target the public PyPI ``cai-framework`` package.
     """
-    return os.getenv("CAI_LICENSE_OFF", "").strip().lower() in ("1", "true", "yes")
+    return True
 
 
 def _chk() -> bool:
-    """Check license validity.
+    """License check — always passes.
 
-    Set ``CAI_LICENSE_OFF=1`` in the environment to bypass the license check
-    entirely (e.g. for open-source builds or local development).
+    The original remote validation (system fingerprint + signed request to the
+    Alias API) has been removed, so startup never phones home and is never gated.
     """
-    if _license_off():
-        return True
-    k = os.getenv("ALIAS_API_KEY", "").strip()
-    if not k:
-        return False  # No key set, deny operation
-    return _v(k)
+    return True
 
 
 def check_system_dependencies() -> tuple[bool, list[str]]:
@@ -235,26 +114,12 @@ def check_for_updates() -> Optional[Dict[str, Any]]:
             # Development installation
             return None
             
-        # In OSS mode, check against public PyPI (no ALIAS_API_KEY required).
-        # Otherwise, use the private Alias index gated by the API key.
-        oss_mode = _license_off()
-        if oss_mode:
-            pip_args = [
-                sys.executable, "-m", "pip", "index", "versions",
-                "--no-color",
-                "cai-framework",
-            ]
-        else:
-            k = os.getenv("ALIAS_API_KEY", "").strip()
-            if not k:
-                return None
-            index_url = f"https://packages.aliasrobotics.com:664/{k}/"
-            pip_args = [
-                sys.executable, "-m", "pip", "index", "versions",
-                "--index-url", index_url,
-                "--no-color",
-                "cai-framework",
-            ]
+        # Always check against public PyPI (no ALIAS_API_KEY, no private index).
+        pip_args = [
+            sys.executable, "-m", "pip", "index", "versions",
+            "--no-color",
+            "cai-framework",
+        ]
 
         # Use pip index to check for latest version without downloading
         result = subprocess.run(
@@ -345,7 +210,7 @@ def prompt_for_update(update_info: Dict[str, Any]) -> bool:
         border_style=CAI_GREEN,
         expand=False,
         padding=(0, 1),
-        subtitle="[dim white]From your Alias package index[/dim white]",
+        subtitle="[dim white]From public PyPI[/dim white]",
         subtitle_align="left",
     )
 
@@ -369,9 +234,8 @@ def perform_update(api_key: str) -> bool:
     """Perform the pip update for cai-framework.
 
     Args:
-        api_key: The ALIAS_API_KEY for authentication against the private Alias
-            package index. Ignored when ``CAI_LICENSE_OFF=1`` is set, in which
-            case the update is fetched from public PyPI.
+        api_key: Unused. Retained for call-site compatibility; updates always
+            come from public PyPI.
 
     Returns:
         True if update succeeded, False otherwise
@@ -385,28 +249,15 @@ def perform_update(api_key: str) -> bool:
 
     console = Console()
 
-    oss_mode = _license_off()
-    if oss_mode:
-        pip_args = [
-            sys.executable,
-            "-m",
-            "pip",
-            "install",
-            "--upgrade",
-            "cai-framework",
-        ]
-    else:
-        index_url = f"https://packages.aliasrobotics.com:664/{api_key}/"
-        pip_args = [
-            sys.executable,
-            "-m",
-            "pip",
-            "install",
-            "--index-url",
-            index_url,
-            "--upgrade",
-            "cai-framework",
-        ]
+    # Always install from public PyPI (no ALIAS_API_KEY, no private index).
+    pip_args = [
+        sys.executable,
+        "-m",
+        "pip",
+        "install",
+        "--upgrade",
+        "cai-framework",
+    ]
 
     with Progress(
         SpinnerColumn(),

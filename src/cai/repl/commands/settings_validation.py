@@ -235,40 +235,21 @@ def validate_openrouter_key(api_key: Optional[str] = None) -> ValidationResult:
 
 
 def validate_alias_key(api_key: Optional[str] = None) -> ValidationResult:
-    """Validate Alias Robotics API key (OpenAI-compatible listing endpoint)."""
+    """Report ALIAS_API_KEY status without contacting the Alias API.
+
+    Remote validation against the Alias gateway has been removed from this fork,
+    so this never phones home. It only reports whether the key is set locally.
+    """
     key = (api_key or os.getenv("ALIAS_API_KEY") or "").strip()
     if not key:
         return ValidationResult(
             status=ValidationStatus.NOT_SET,
             message="ALIAS_API_KEY is not set",
         )
-    url = "https://api.aliasrobotics.com:666/v1/models"
-    try:
-        headers = {"Authorization": f"Bearer {key}"}
-        if HAS_HTTPX:
-            with httpx.Client(timeout=10.0) as client:
-                response = client.get(url, headers=headers)
-        else:
-            response = requests.get(url, headers=headers, timeout=10)
-        if response.status_code == 200:
-            return ValidationResult(
-                status=ValidationStatus.VALID,
-                message="Alias API key is valid",
-            )
-        if response.status_code in (401, 403):
-            return ValidationResult(
-                status=ValidationStatus.INVALID,
-                message="Alias API key is invalid or not authorized",
-            )
-        return ValidationResult(
-            status=ValidationStatus.ERROR,
-            message=f"Unexpected response: {response.status_code}",
-        )
-    except Exception as e:
-        return ValidationResult(
-            status=ValidationStatus.ERROR,
-            message=f"Connection error: {str(e)}",
-        )
+    return ValidationResult(
+        status=ValidationStatus.VALID,
+        message="ALIAS_API_KEY is set (remote validation disabled in this fork)",
+    )
 
 
 def validate_google_key(api_key: Optional[str] = None) -> ValidationResult:
